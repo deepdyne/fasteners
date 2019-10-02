@@ -53,7 +53,7 @@ if __name__ == "__main__":
             rescale=1.0 / 255,  # 与えられた値をデータに積算する
         )
 
-        generate_images("airplane", train_datagen)
+        generate_images("fastener", train_datagen)
         # generate_images('gorilla', train_datagen)
         # generate_images('chimpanzee', train_datagen)
 
