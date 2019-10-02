@@ -9,6 +9,7 @@ verify_ssl = true
 numpy = "*"
 keras = "*"
 tensorflow = "==1.13.1"
+pillow = "*"
 
 [requires]
 python_version = "3.6"

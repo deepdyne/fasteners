@@ -14,8 +14,11 @@ def generate_images(class_name, generator):
     dir = base_path + class_name + "/"
     if not os.path.exists(dir + "output"):
         os.mkdir(dir + "output")
+    print("dir", dir)
     savedir = base_path + class_name + "/output/"
     images = glob.glob(dir + "/*.jpg")
+    print("_______________kakunin______________")
+    print(images)
     print("input files = ", len(images))
 
     for i, image in enumerate(images):
