@@ -1,0 +1,43 @@
+{
+    "name": "YOLO",
+    "securityToken": "YOLO Token",
+    "sourceConnection": {
+        "name": "YOLO",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMGMwNDkyZGE5OGQwYjdkMDg2MDVmZTQ2ZThiMmNmNzA0NzZmYTA4M2NiMzUwNmFlMDFjYWRlOWNmYWZiOGI0NGUyZmI4M2MwZDJkNDBiMTNlZDMzNjQ4ZTQ2OTUwMTU2YzI5NmUwOWM3YzUwOGExMjdkY2NjZDkxZTE3MDlkNWUiLCJpdiI6ImM3NzQzMjlkYWQ3ODE2ZmQzNjA5ZmE4NmE0NzhlYmU0YjBjOTYwMTY0NTY5Zjc0MSJ9"
+        },
+        "id": "Q0w6z6yYQ"
+    },
+    "targetConnection": {
+        "name": "YOLO",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMGMwNGNlNWE0NTk2Yzk4YWE3MjczNjE0MWMyY2ZjZDdhZDg4MjdkMjlmZjhhYzdjZTg1MzhjNTU5NWNjZDMxZDVjZjYwNmIwODlkZTY5ODBjYzcwYjgyMGE2YTYwZjU4NmM5ZTZkMWIzYzk3ZTM1MmMxZTdiNDg4MjBlZTI4YTgiLCJpdiI6IjZhNWJkNGMwZDJkZTZhZDFiMTQyMWRiNTJjZGFiMWIxYzMyN2QxYzFkM2YzZThiMSJ9"
+        },
+        "id": "Q0w6z6yYQ"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "fastener",
+            "color": "#000080"
+        }
+    ],
+    "id": "EMPMWPgzN",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "pascalVOC",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNjJlMDNlOGJiNjE5NzhjMDVhMTkwM2U0ZjE3OTg3NGZkZWNkMzUyM2E4YWUzZWFkNTAyMzExMDRjNTlkZGQ0ODg2ZmE3ODUwYThiMzg2NDNiYWU5ZWFkZDdlMmExYzEzYzlkZTYyYWJjNzg5MWExYzFkNmNlZDc4YzY1NTQ4MWVmMmNhNmUwMzFiMDZkNmMzZTljMjdkZWQ1ZTVkZTdjYyIsIml2IjoiYzdmOGM4NzY1ZTg3ZTE1MDQ2M2FmZjMwNTNkZDcxYzhhMzY5MjllZGIzY2QyNDRlIn0="
+        }
+    },
+    "version": "2.1.0",
+    "lastVisitedAssetId": "4a1fcd48c9c4ae98d927b42811549e86"
+}

@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "086b241c880fe1dabae76323daa10082",
+        "name": "fastener_0_56.jpg",
+        "path": "file:/home/mike/Workspace/DA/fastener/output/fastener_0_56.jpg",
+        "size": {
+            "width": 4032,
+            "height": 1960
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "Pn_5geobt",
+            "type": "RECTANGLE",
+            "tags": [
+                "fastener"
+            ],
+            "boundingBox": {
+                "height": 449.5156695156695,
+                "width": 973.8186851211075,
+                "left": 1506.7681660899655,
+                "top": 818.673433048433
+            },
+            "points": [
+                {
+                    "x": 1506.7681660899655,
+                    "y": 818.673433048433
+                },
+                {
+                    "x": 2480.5868512110733,
+                    "y": 818.673433048433
+                },
+                {
+                    "x": 2480.5868512110733,
+                    "y": 1268.1891025641025
+                },
+                {
+                    "x": 1506.7681660899655,
+                    "y": 1268.1891025641025
+                }
+            ]
+        }
+    ],
+    "version": "2.1.0"
+}
