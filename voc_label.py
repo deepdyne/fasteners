@@ -74,6 +74,6 @@ for image_set in sets:
 
     list_file = open("%s.txt" % (image_set), "w")
     for image_id in image_ids:
-        list_file.write("%s/VOCdevkit/VOC/JPEGImages/%s.jpg\n" % (wd, image_id))
-        convert_annotation(image_id)
+        # list_file.write("%s/VOCdevkit/VOC/JPEGImages/%s.jpg\n" % (wd, image_id)) # this is not needed coz it has already created by VoTT
+        convert_annotation(image_id) # just only need is to create labels/xxx.txt file for YOLO format
     list_file.close()
