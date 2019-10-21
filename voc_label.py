@@ -1,18 +1,12 @@
+"""
+original: http://pjreddie.com/media/files/voc_label.py
+"""
+
 import os
 import pickle
 import xml.etree.ElementTree as ET
 from os import getcwd, listdir
 from os.path import join
-
-# sets = [
-#     ("2012", "train"),
-#     ("2012", "val"),
-#     ("2007", "train"),
-#     ("2007", "val"),
-#     ("2007", "test"),
-# ]
-
-# classes = ["aeroplane", "bicycle", "bird", "boat", "bottle", "bus", "car", "cat", "chair", "cow", "diningtable", "dog", "horse", "motorbike", "person", "pottedplant", "sheep", "sofa", "train", "tvmonitor"]
 
 sets = ["trainval", "test"]
 classes = ["fastener"]
@@ -72,8 +66,7 @@ for image_set in sets:
     )
     image_ids = list(map(lambda x: os.path.splitext(x)[0], image_ids))
 
-    list_file = open("%s.txt" % (image_set), "w")
     for image_id in image_ids:
-        # list_file.write("%s/VOCdevkit/VOC/JPEGImages/%s.jpg\n" % (wd, image_id)) # this is not needed coz it has already created by VoTT
-        convert_annotation(image_id) # just only need is to create labels/xxx.txt file for YOLO format
-    list_file.close()
+        convert_annotation(
+            image_id
+        )
