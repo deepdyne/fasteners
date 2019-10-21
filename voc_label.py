@@ -56,8 +56,6 @@ def convert_annotation(image_id):
         out_file.write(str(cls_id) + " " + " ".join([str(a) for a in bb]) + "\n")
 
 
-wd = getcwd()
-
 for image_set in sets:
     if not os.path.exists(DIR_NAME + "/labels/"):
         os.makedirs(DIR_NAME + "/labels/")
@@ -67,6 +65,11 @@ for image_set in sets:
     image_ids = list(map(lambda x: os.path.splitext(x)[0], image_ids))
 
     for image_id in image_ids:
-        convert_annotation(
-            image_id
-        )
+        convert_annotation(image_id)
+
+    wd = getcwd()
+    # Create full path file
+    list_file = open("%s.txt" % (image_set), "w")
+    for image_id in image_ids:
+        list_file.write("%s/%s/JPEGImages/%s.jpg\n" % (wd, DIR_NAME, image_id))
+    list_file.close()
