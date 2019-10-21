@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>fastener_0_5793.jpg</filename>
+    <path>YOLO-PascalVOC-export/Annotations/fastener_0_5793.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>4032</width>
+        <height>1960</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>fastener</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1570.9453287197232</xmin>
+        <ymin>854.9697293447293</ymin>
+        <xmax>2600.570242214533</xmax>
+        <ymax>1421.7503561253561</ymax>
+    </bndbox>
+</object>
+</annotation>
