@@ -1,9 +1,6 @@
 import glob
 import os
 
-sets = ["train", "val"]
-classes = ["fastener"]
-
 DIR_NAME = "fastener/output/YOLO-PascalVOC-export/ImageSets/Main/"
 
 os.chdir(DIR_NAME)
