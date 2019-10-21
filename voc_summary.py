@@ -28,3 +28,7 @@ for file_type in ["train", "val"]:
     with open("{}.txt".format(file_type), "w") as f:
         for image_id in image_ids:
             f.write("%s\n" % image_id)
+
+# NOTE: Coz VoTT creates train and val files on each classes as trainval and test.
+os.rename("train.txt", "trainval.txt")
+os.rename("val.txt", "test.txt")
