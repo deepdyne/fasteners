@@ -3,20 +3,17 @@ import os
 import traceback
 
 import numpy as np
-
 from keras.preprocessing.image import (ImageDataGenerator, img_to_array,
                                        load_img)
 
-dataset_dir = "./5class_fasteners_dataset/"
-
+dataset_name = "5class_fasteners_dataset"
+dataset_dir_in = "./{}/{}/".format("inputs", dataset_name)
+dataset_dir_out = "./{}/{}/".format("outputs", dataset_name)
 
 def generate_images(class_name, generator):
-    # jpgファイル取得
-    dir = dataset_dir + class_name + "/"
-    if not os.path.exists(dir + "output"):
-        os.mkdir(dir + "output")
-    savedir = dataset_dir + class_name + "/output/"
-    images = glob.glob(dir + "/*.jpg")
+    read_dir = dataset_dir_in + class_name + "/"
+    save_dir = dataset_dir_out
+    images = glob.glob(read_dir + "/*.jpg")
     print("input files = ", len(images))
 
     for i, image in enumerate(images):
@@ -24,19 +21,17 @@ def generate_images(class_name, generator):
         image = load_img(image)
         # numpy arrayに変換
         x = img_to_array(image)
-
         # 4次元データに変換
         x = np.expand_dims(x, axis=0)
 
         g = generator.flow(
-            x, save_to_dir=savedir, save_prefix=class_name, save_format="jpg"
+            x, save_to_dir=save_dir, save_prefix=class_name, save_format="jpg"
         )
-
         # output画像をinputの何倍作成するか 1で1倍, 10で10倍
         for j in range(5):
             g.next()
 
-    print("output files = ", len(glob.glob(savedir + "/*.jpg")))
+    print("output files = ", len(glob.glob(save_dir + "/*.jpg")))
 
 
 if __name__ == "__main__":
