@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>S005_0_1254.jpg</filename>
+    <path>5class_fasteners_annotation-PascalVOC-export/Annotations/S005_0_1254.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>4032</width>
+        <height>1960</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>S005</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1394.086956521739</xmin>
+        <ymin>718.8174715909091</ymin>
+        <xmax>2006.2608695652173</xmax>
+        <ymax>1041.7720170454545</ymax>
+    </bndbox>
+</object>
+</annotation>

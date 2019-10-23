@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>S004_0_3519.jpg</filename>
+    <path>5class_fasteners_annotation-PascalVOC-export/Annotations/S004_0_3519.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>4032</width>
+        <height>1960</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>S004</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1594.4347826086955</xmin>
+        <ymin>908.135653409091</ymin>
+        <xmax>2142.608695652174</xmax>
+        <ymax>1147.0454545454547</ymax>
+    </bndbox>
+</object>
+</annotation>
