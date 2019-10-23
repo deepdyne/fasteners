@@ -1,0 +1,73 @@
+{
+    "name": "5class_fasteners_annotation",
+    "securityToken": "5class_fasteners_annotation Token",
+    "sourceConnection": {
+        "name": "5class_fasteners",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMzJhZGE5ZjU3OTJjMTYyODZiNGMwMTlhMGQ4ODg4ZDY2ZjVkMzBkZGNkNmU5Y2M0YWM0NzdmYjFmMWQ0ZWY5ZDkwZjIzNmRlZWI0NjM5N2EzZmM2ODRlYjVjM2FhZmMwMTA1MDEyYjVhY2Q1YTg1OWNhYmM1MDhkYmU4M2I5MDAzNDA5Mjk0ZDczYTgyNzA1OTgxNThhMTA2NzJmMGE5ZjRjNjY0YWVmZDkyYTNkNjJiOTFlZWZhNTllZTUzMmJkIiwiaXYiOiI1YTcyMzZkNjYxNjgyY2M4YjFjYzljYzk1Yzc2ZGZiYjQxNWZjZjg3NjRmNTdhMjAifQ=="
+        },
+        "id": "0ioj8O9Bt"
+    },
+    "targetConnection": {
+        "name": "5class_fasteners",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZGUyNjAwMzU1MmRmOTFhMTU4YmZmZmVmN2FmNjAzZWVhZmZmZTdkYmY4YTUwOGU0ZTFjYTE4ZGZjZDVjNWYzNzg5NzAyMzJhMjE1MmQ0NWU2YjYzZmQyOWUyMTUzOTY0YjI0Y2Q1YTk4YTE1NDJhOWFmMzllZWMwMzczMTkwZjE5YjRiMWIyNmVmZTE3OGE3MmQ2NjRkZmQ3NGE3NzM3ZTZiYmViNDNlNTg0YjA3NzY3ZTI1ZjQ2OGVmMTEyZDQ3IiwiaXYiOiI0NjU3OGVjYjM3ODU2NWMwNDQ3MzI2ZjU2OTRmYmI2YzkxMjkzOTM0NWZjOWUyOWUifQ=="
+        },
+        "id": "0ioj8O9Bt"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "S001",
+            "color": "#000080"
+        },
+        {
+            "name": "S002",
+            "color": "#800080"
+        },
+        {
+            "name": "S003",
+            "color": "#0000FF"
+        },
+        {
+            "name": "S004",
+            "color": "#000080"
+        },
+        {
+            "name": "S005",
+            "color": "#FF00FF"
+        }
+    ],
+    "id": "qmRwMARoG",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "vottJson",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNGM4MThiNjEzZDE3NDFjYmM3NjMxZTNmOWM2ZGU3MDc2ZDg0ZTM2MTEyMTM4NzMwY2NjYmQwODBjMzI3ZGZhYjkzOTI4YzNmZmQyOTA2ZjFjYWFlOTM5MjY5MzJjZWQ4IiwiaXYiOiJkMmZiMzc1YmEyMTM5YTkxYzRhYjZlYWU2ZmI3MTI5MGQwZDUzY2JiNTU5NGY0OWQifQ=="
+        }
+    },
+    "version": "2.1.0",
+    "lastVisitedAssetId": "97725cea7d65e8d9153cf8e89220d370",
+    "assets": {
+        "97725cea7d65e8d9153cf8e89220d370": {
+            "format": "jpg",
+            "id": "97725cea7d65e8d9153cf8e89220d370",
+            "name": "S001_0_1378.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/outputs/5class_fasteners_dataset/S001_0_1378.jpg",
+            "size": {
+                "width": 4032,
+                "height": 1960
+            },
+            "state": 1,
+            "type": 1
+        }
+    }
+}
