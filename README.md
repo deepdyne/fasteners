@@ -1,8 +1,10 @@
 # Fasteners
 
-SXXX = Screw
-BXXX = Bolt
-NXXX = Nut
+- SXXX = Screw
+- BXXX = Bolt
+- NXXX = Nut
+
+REFERENCES:
 
 - original: https://github.com/wakuphas/wakuphas/blob/master/AI/Scripts/increase_img.py
 - reference: https://wakuphas.hatenablog.com/entry/2018/09/19/025941
