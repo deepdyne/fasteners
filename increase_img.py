@@ -3,18 +3,19 @@ import os
 import traceback
 
 import numpy as np
+
 from keras.preprocessing.image import (ImageDataGenerator, img_to_array,
                                        load_img)
 
-base_path = "./"
+dataset_dir = "./5class_fastener_dataset/"
 
 
 def generate_images(class_name, generator):
     # jpgファイル取得
-    dir = base_path + class_name + "/"
+    dir = dataset_dir + class_name + "/"
     if not os.path.exists(dir + "output"):
         os.mkdir(dir + "output")
-    savedir = base_path + class_name + "/output/"
+    savedir = dataset_dir + class_name + "/output/"
     images = glob.glob(dir + "/*.jpg")
     print("input files = ", len(images))
 
@@ -53,9 +54,11 @@ if __name__ == "__main__":
             rescale=1.0 / 255,  # 与えられた値をデータに積算する
         )
 
-        generate_images("fastener", train_datagen)
-        # generate_images('gorilla', train_datagen)
-        # generate_images('chimpanzee', train_datagen)
+        generate_images("001", train_datagen)
+        generate_images("002", train_datagen)
+        generate_images("003", train_datagen)
+        generate_images("004", train_datagen)
+        generate_images("005", train_datagen)
 
     except Exception as e:
         traceback.print_exc()
