@@ -7,7 +7,7 @@ import numpy as np
 from keras.preprocessing.image import (ImageDataGenerator, img_to_array,
                                        load_img)
 
-dataset_dir = "./5class_fastener_dataset/"
+dataset_dir = "./5class_fasteners_dataset/"
 
 
 def generate_images(class_name, generator):
@@ -33,7 +33,7 @@ def generate_images(class_name, generator):
         )
 
         # output画像をinputの何倍作成するか 1で1倍, 10で10倍
-        for j in range(10):
+        for j in range(5):
             g.next()
 
     print("output files = ", len(glob.glob(savedir + "/*.jpg")))
@@ -54,11 +54,11 @@ if __name__ == "__main__":
             rescale=1.0 / 255,  # 与えられた値をデータに積算する
         )
 
-        generate_images("001", train_datagen)
-        generate_images("002", train_datagen)
-        generate_images("003", train_datagen)
-        generate_images("004", train_datagen)
-        generate_images("005", train_datagen)
+        generate_images("S001", train_datagen)
+        generate_images("S002", train_datagen)
+        generate_images("S003", train_datagen)
+        generate_images("S004", train_datagen)
+        generate_images("S005", train_datagen)
 
     except Exception as e:
         traceback.print_exc()
