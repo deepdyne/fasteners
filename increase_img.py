@@ -10,8 +10,11 @@ dataset_name = "5class_fasteners_dataset"
 dataset_dir_in = "./{}/{}/".format("inputs", dataset_name)
 dataset_dir_out = "./{}/{}/".format("outputs", dataset_name)
 
+
 def generate_images(class_name, generator):
     read_dir = dataset_dir_in + class_name + "/"
+    if not os.path.exists(dataset_dir_out):
+        os.mkdir(dataset_dir_out)
     save_dir = dataset_dir_out
     images = glob.glob(read_dir + "/*.jpg")
     print("input files = ", len(images))
