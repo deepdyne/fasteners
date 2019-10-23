@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "db8c9f678aec057a6b31a196aa34f7f8",
+        "name": "S004_0_1147.jpg",
+        "path": "file:/home/mike/Workspace/fasteners/outputs/5class_fasteners_dataset/S004_0_1147.jpg",
+        "size": {
+            "width": 4032,
+            "height": 1960
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "AbEoRJGfq",
+            "type": "RECTANGLE",
+            "tags": [
+                "S004"
+            ],
+            "boundingBox": {
+                "height": 247.7840909090909,
+                "width": 578.7826086956521,
+                "left": 1847.6521739130435,
+                "top": 896.9992897727273
+            },
+            "points": [
+                {
+                    "x": 1847.6521739130435,
+                    "y": 896.9992897727273
+                },
+                {
+                    "x": 2426.4347826086955,
+                    "y": 896.9992897727273
+                },
+                {
+                    "x": 2426.4347826086955,
+                    "y": 1144.7833806818182
+                },
+                {
+                    "x": 1847.6521739130435,
+                    "y": 1144.7833806818182
+                }
+            ]
+        }
+    ],
+    "version": "2.1.0"
+}
