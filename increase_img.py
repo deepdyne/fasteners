@@ -1,6 +1,7 @@
 import glob
 import os
 import traceback
+from random import randint
 
 import numpy as np
 from keras.preprocessing.image import (ImageDataGenerator, img_to_array,
@@ -27,8 +28,14 @@ def generate_images(class_name, generator):
         # 4次元データに変換
         x = np.expand_dims(x, axis=0)
 
+        # NOTE:
+        # - VoTT dataset does not pick data randomly
+        # - it follows file name order that's why i add random number to filename prefx
+        # - ref https://github.com/microsoft/VoTT/issues/915
+        rand_no = str(randint(0, 9999)).rjust(4, "0")
+        filename_prefix = rand_no + class_name
         g = generator.flow(
-            x, save_to_dir=save_dir, save_prefix=class_name, save_format="jpg"
+            x, save_to_dir=save_dir, save_prefix=filename_prefix, save_format="jpg"
         )
         # output画像をinputの何倍作成するか 1で1倍, 10で10倍
         for j in range(5):

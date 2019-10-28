@@ -7,10 +7,9 @@ import pickle
 import xml.etree.ElementTree as ET
 from os import getcwd, listdir
 from os.path import join
-from random import randint
 
 sets = ["train", "test"]
-classes = ["S001", "S002", "S003"] # , "S004", "S005"]
+classes = ["S001", "S002", "S003"]  # , "S004", "S005"]
 
 VOC_DIR_NAME = (
     "outputs/5class_fasteners_dataset/5class_fasteners_annotation-PascalVOC-export"
@@ -62,16 +61,8 @@ def convert_annotation(image_id):
 def get_all_train_images():
     all_image_ids = []
     for class_name in classes:
-        # NOTE:
-        # - VoTT dataset does not pick data randomly
-        # - it follows file name order that's why i add random number to filename prefx
-        # - ref https://github.com/microsoft/VoTT/issues/915
-        rand_no = str(randint(0, 9999)).rjust(4, "0")
         image_ids = (
-            open(
-                VOC_DIR_NAME
-                + "/ImageSets/Main/%s_%s_%s.txt" % (rand_no, class_name, image_set)
-            )
+            open(VOC_DIR_NAME + "/ImageSets/Main/%s_%s.txt" % (class_name, image_set))
             .read()
             .strip()
             .split()
