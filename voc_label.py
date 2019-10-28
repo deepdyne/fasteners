@@ -7,11 +7,14 @@ import pickle
 import xml.etree.ElementTree as ET
 from os import getcwd, listdir
 from os.path import join
+from random import randint
 
-sets = ["trainval", "test"]
-classes = ["fastener"]
+sets = ["train", "test"]
+classes = ["S001", "S002", "S003", "S004", "S005"]
 
-DIR_NAME = "fastener/output/YOLO-PascalVOC-export"
+VOC_DIR_NAME = (
+    "outputs/5class_fasteners_dataset/5class_fasteners_annotation-PascalVOC-export"
+)
 
 
 def convert(size, box):
@@ -29,8 +32,8 @@ def convert(size, box):
 
 
 def convert_annotation(image_id):
-    in_file = open(DIR_NAME + "/Annotations/%s.xml" % (image_id))
-    out_file = open(DIR_NAME + "/labels/%s.txt" % (image_id), "w")
+    in_file = open(VOC_DIR_NAME + "/Annotations/%s.xml" % (image_id))
+    out_file = open(VOC_DIR_NAME + "/labels/%s.txt" % (image_id), "w")
     tree = ET.parse(in_file)
     root = tree.getroot()
     size = root.find("size")
@@ -56,14 +59,35 @@ def convert_annotation(image_id):
         out_file.write(str(cls_id) + " " + " ".join([str(a) for a in bb]) + "\n")
 
 
-for image_set in sets:
-    if not os.path.exists(DIR_NAME + "/labels/"):
-        os.makedirs(DIR_NAME + "/labels/")
-    image_ids = (
-        open(DIR_NAME + "/ImageSets/Main/%s.txt" % (image_set)).read().strip().split()
-    )
-    image_ids = list(map(lambda x: os.path.splitext(x)[0], image_ids))
+def get_all_train_images():
+    all_image_ids = []
+    for class_name in classes:
+        # NOTE:
+        # - VoTT dataset does not pick data randomly
+        # - it follows file name order that's why i add random number to filename prefx
+        # - ref https://github.com/microsoft/VoTT/issues/915
+        rand_no = str(randint(0, 9999)).rjust(4, "0")
+        image_ids = (
+            open(
+                VOC_DIR_NAME
+                + "/ImageSets/Main/%s_%s_%s.txt" % (rand_no, class_name, image_set)
+            )
+            .read()
+            .strip()
+            .split()
+        )
+        image_ids = list(map(lambda x: os.path.splitext(x)[0], image_ids))[0::2]
+        # print("image_ids", image_ids)
+        all_image_ids = all_image_ids + image_ids
+    return all_image_ids
 
+
+for image_set in sets:
+    if not os.path.exists(VOC_DIR_NAME + "/labels/"):
+        os.makedirs(VOC_DIR_NAME + "/labels/")
+
+    image_ids = get_all_train_images()
+    print(len(image_ids))
     for image_id in image_ids:
         convert_annotation(image_id)
 
@@ -71,5 +95,5 @@ for image_set in sets:
     # Create full path file
     list_file = open("%s.txt" % (image_set), "w")
     for image_id in image_ids:
-        list_file.write("%s/%s/JPEGImages/%s.jpg\n" % (wd, DIR_NAME, image_id))
+        list_file.write("%s/%s/JPEGImages/%s.jpg\n" % (wd, VOC_DIR_NAME, image_id))
     list_file.close()
