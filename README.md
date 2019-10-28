@@ -18,9 +18,10 @@ conv VoTT to YOLO
 $ python voc_summary.py 
 ```
 
-- create lables files and trainval.txt 
-- create test.txt from Main/test.txt and trainval.txt from Main/trainval.txt
-- the difference between Main/xxx.txt and xxx.txt in root dir is that latter has image path and former has image id
+- create lables files
+- create test.txt from Main/test.txt and 
+- create trainval.txt from Main/trainval.txt
+- the difference between Main/xxx.txt and xxx.txt is that latter has image path and former has image id
 
 ```
 $ python voc_label.py
