@@ -4,6 +4,13 @@
 - BXXX = Bolt
 - NXXX = Nut
 
+# CMD
+
+$ python increase_img.py
+$ python voc_label.py
+$ python voc_summary.py
+```
+
 REFERENCES:
 
 - original: https://github.com/wakuphas/wakuphas/blob/master/AI/Scripts/increase_img.py
