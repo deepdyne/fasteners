@@ -18,11 +18,12 @@ conv VoTT to YOLO
 $ python voc_summary.py 
 ```
 
-- create trainval.txt and test.txt from Main/trainval/test.txt
-- the difference between them is that txt files that is cretated by this cmd has image_path not image_id
+- create lables files and trainval.txt 
+- create test.txt from Main/test.txt and trainval.txt from Main/trainval.txt
+- the difference between Main/xxx.txt and xxx.txt in root dir is that latter has image path and former has image id
 
 ```
-$ python voc_label.py # create label files from annotation files
+$ python voc_label.py
 ```
 
 # REFERENCES:
