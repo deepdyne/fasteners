@@ -28,20 +28,26 @@ def generate_images(class_name, generator):
         # 4次元データに変換
         x = np.expand_dims(x, axis=0)
 
-        # NOTE:
-        # - VoTT dataset does not pick data randomly
-        # - it follows file name order that's why i add random number to filename prefx
-        # - ref https://github.com/microsoft/VoTT/issues/915
-        rand_no = str(randint(0, 9999)).rjust(4, "0")
-        filename_prefix = "{}_{}".format(rand_no, class_name)
         g = generator.flow(
-            x, save_to_dir=save_dir, save_prefix=filename_prefix, save_format="jpg"
+            x, save_to_dir=save_dir, save_prefix=class_name, save_format="jpg"
         )
         # output画像をinputの何倍作成するか 1で1倍, 10で10倍
         for j in range(5):
             g.next()
 
     print("output files = ", len(glob.glob(save_dir + "/*.jpg")))
+
+
+# NOTE:
+# - VoTT dataset does not pick data randomly
+# - it follows file name order that's why i add random number to filename prefx
+# - ref https://github.com/microsoft/VoTT/issues/915
+def add_random_prefix():
+    for filename in os.listdir(dataset_dir_out):
+        rand_no = str(randint(0, 9999)).rjust(4, "0")
+        src = f"{dataset_dir_out}{filename}"
+        dst = f"{dataset_dir_out}{rand_no}_{filename}"
+        os.rename(src, dst)
 
 
 if __name__ == "__main__":
@@ -62,8 +68,10 @@ if __name__ == "__main__":
         generate_images("S001", train_datagen)
         generate_images("S002", train_datagen)
         generate_images("S003", train_datagen)
-        generate_images("S004", train_datagen)
-        generate_images("S005", train_datagen)
+        # generate_images("S004", train_datagen)
+        # generate_images("S005", train_datagen)
 
     except Exception as e:
         traceback.print_exc()
+
+    add_random_prefix()
