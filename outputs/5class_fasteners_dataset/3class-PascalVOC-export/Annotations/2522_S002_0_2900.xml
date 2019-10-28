@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>2522_S002_0_2900.jpg</filename>
+    <path>3class-PascalVOC-export/Annotations/2522_S002_0_2900.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>4032</width>
+        <height>1960</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>S002</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1697.391304347826</xmin>
+        <ymin>696.5447443181819</ymin>
+        <xmax>2440.3478260869565</xmax>
+        <ymax>1041.7720170454545</ymax>
+    </bndbox>
+</object>
+</annotation>

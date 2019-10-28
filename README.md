@@ -7,8 +7,8 @@
 # CMD
 
 ```
-$ python increase_img.py
-$ python voc_label.py
+$ python increase_img.py # before annotation
+$ python voc_label.py # conv VOC to YOLO. after annotation need to exec this
 $ python voc_summary.py # on note-book instance
 ```
 
