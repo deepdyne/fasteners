@@ -33,7 +33,7 @@ def generate_images(class_name, generator):
         # - it follows file name order that's why i add random number to filename prefx
         # - ref https://github.com/microsoft/VoTT/issues/915
         rand_no = str(randint(0, 9999)).rjust(4, "0")
-        filename_prefix = rand_no + class_name
+        filename_prefix = "{}_{}".format(rand_no, class_name)
         g = generator.flow(
             x, save_to_dir=save_dir, save_prefix=filename_prefix, save_format="jpg"
         )
