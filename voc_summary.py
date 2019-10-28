@@ -1,9 +1,11 @@
+"""
+create trainval.txt and test.txt
+"""
+
 import glob
 import os
 
-DIR_NAME = (
-    "outputs/5class_fasteners_dataset/3class-PascalVOC-export/ImageSets/Main/"
-)
+DIR_NAME = "outputs/5class_fasteners_dataset/3class-PascalVOC-export/ImageSets/Main/"
 
 os.chdir(DIR_NAME)
 

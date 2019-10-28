@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 from os import getcwd, listdir
 from os.path import join
 
-sets = ["train", "test"]
+sets = ["trainval", "test"]
 classes = ["S001", "S002", "S003"]  # , "S004", "S005"]
 
 VOC_DIR_NAME = "outputs/5class_fasteners_dataset/3class-PascalVOC-export"
@@ -56,27 +56,17 @@ def convert_annotation(image_id):
         out_file.write(str(cls_id) + " " + " ".join([str(a) for a in bb]) + "\n")
 
 
-def get_all_train_images():
-    all_image_ids = []
-    for class_name in classes:
-        image_ids = (
-            open(VOC_DIR_NAME + "/ImageSets/Main/%s_%s.txt" % (class_name, image_set))
-            .read()
-            .strip()
-            .split()
-        )
-        image_ids = list(map(lambda x: os.path.splitext(x)[0], image_ids))[0::2]
-        # print("image_ids", image_ids)
-        all_image_ids = all_image_ids + image_ids
-    return all_image_ids
+def get_all_images(image_set):
+    return (
+        open(VOC_DIR_NAME + "/ImageSets/Main/%s.txt" % image_set).read().strip().split()
+    )
 
+
+if not os.path.exists(VOC_DIR_NAME + "/labels/"):
+    os.makedirs(VOC_DIR_NAME + "/labels/")
 
 for image_set in sets:
-    if not os.path.exists(VOC_DIR_NAME + "/labels/"):
-        os.makedirs(VOC_DIR_NAME + "/labels/")
-
-    image_ids = get_all_train_images()
-    print(len(image_ids))
+    image_ids = get_all_images(image_set)
     for image_id in image_ids:
         convert_annotation(image_id)
 
