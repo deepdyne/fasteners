@@ -10,7 +10,7 @@ from os.path import join
 from random import randint
 
 sets = ["train", "test"]
-classes = ["S001", "S002", "S003", "S004", "S005"]
+classes = ["S001", "S002", "S003"] # , "S004", "S005"]
 
 VOC_DIR_NAME = (
     "outputs/5class_fasteners_dataset/5class_fasteners_annotation-PascalVOC-export"

@@ -8,7 +8,7 @@
 
 $ python increase_img.py
 $ python voc_label.py
-$ python voc_summary.py
+$ python voc_summary.py # on note-book instance
 ```
 
 REFERENCES:
