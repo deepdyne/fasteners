@@ -1,0 +1,65 @@
+{
+    "name": "3class",
+    "securityToken": "3class Token",
+    "sourceConnection": {
+        "name": "3class",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZWY0YTYwNmU0OTljOTE1MThhM2JkZjMwNmMzMWI0Mjc4ZjZlYTFhMWFjNmYzYjFlZThhMmQ3N2Q5MDJlZjEyYWYzOGY0MzQ1MDhlYmNhMjk2MmQ0NDQ3NTJmNjc3MWZmM2RlNjUzYmQ5OWExZjEzOThlOWQ4MzdhNmY0MjQ5NDkzNTU2OTRkNzczNjUzYmZjN2ZhZTFjNjliNjVlNDcyY2Y5Y2FhNDJkN2QyZDExODAzOTY3MzY0OGJhZmYwNjhkIiwiaXYiOiJiNTk2MGM5ZWJkYWIwMmU1NWI2NDM1ZGIzNzUyNjk0ZTRjOTUwMDlhNjJiOWU1ZjcifQ=="
+        },
+        "id": "icTImk6Ep"
+    },
+    "targetConnection": {
+        "name": "3class",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZTliZTUzMzljYzc5MDU0MTYxMmYwMGExYzJlOGQzYjFkYjBiODA3Mjk3MzE3Njg2MDkxZjdiMjcwODVhZDMyZDI0ZTEyNTdkZjM0NTMwYWJhM2Y5YjZlZjZkNDgyZTg4MGFiNDlhZTFmNTc4MzA1NzM0MmYzNzVkM2I2ZWY4YTczZjJkOWI1YjA3YWFmNGVmM2NiMzQwZGI2Y2RkYjUxZmI0MGYxYjk5ZWFiZTA0NmIyZThmNGNmNDA1Y2MwYmE0IiwiaXYiOiJiZjI1MDZiMmMwODk4NzY1OTg0ZWVjZjQ1MTViM2M1MzYyNjdjYmJmMzAzNzRhMTkifQ=="
+        },
+        "id": "icTImk6Ep"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "S001",
+            "color": "#808000"
+        },
+        {
+            "name": "S002",
+            "color": "#FF0000"
+        },
+        {
+            "name": "S003",
+            "color": "#800000"
+        }
+    ],
+    "id": "6ZS5hvoHq",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "vottJson",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYzAxNjE3YTg2ZjVmZDhiZTI5NWJjMmI4YmU4Y2IzNjRmZmUwMGU4OWZlYjk4MTE5ZmNiOTYyODA0ZDRmODZmODllYjhmZDU3NDVjNTI5YjI1ZmU3ZGEyYmFlNjJhNWFhIiwiaXYiOiJkNGM1MmI0ZjlhNjlkMWVjNWQ3NWIwNmQ1OWUzYTcwNWM3YTVmOWFhNjUxOTNjN2IifQ=="
+        }
+    },
+    "version": "2.1.0",
+    "lastVisitedAssetId": "49c4f2ccee4916b3295917f841d577ef",
+    "assets": {
+        "49c4f2ccee4916b3295917f841d577ef": {
+            "format": "jpg",
+            "id": "49c4f2ccee4916b3295917f841d577ef",
+            "name": "0081_S001_0_1274.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/outputs/5class_fasteners_dataset/0081_S001_0_1274.jpg",
+            "size": {
+                "width": 4032,
+                "height": 1960
+            },
+            "state": 1,
+            "type": 1
+        }
+    }
+}
