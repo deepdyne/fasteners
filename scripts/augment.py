@@ -1,4 +1,5 @@
 import glob
+import os
 import shutil
 import sys
 import xml.etree.ElementTree as ET
@@ -12,12 +13,27 @@ from pascal_voc_writer import Writer
 from util import annotation as an
 from util import sequence
 
-INPUT_DIR = "input/settings-PascalVOC-export"
-OUTPUT_DIR = "output"
+VOC_DIR_NAME = "datasets_voc"
+DATASET_NAME = "video_one_class"
+INPUT_DIR = f"{VOC_DIR_NAME}/{DATASET_NAME}"
+AUG_INPUT_DIR = f"{VOC_DIR_NAME}/{DATASET_NAME}_aug"
 AUGMENT_SIZE = 1
 
 
+def create_dir():
+    if not os.path.exists(AUG_INPUT_DIR):
+        os.makedirs(AUG_INPUT_DIR)
+    if not os.path.exists(AUG_INPUT_DIR + "/Annotations/"):
+        os.makedirs(AUG_INPUT_DIR + "/Annotations/")
+    if not os.path.exists(AUG_INPUT_DIR + "/ImageSets/"):
+        os.makedirs(AUG_INPUT_DIR + "/ImageSets/")
+    if not os.path.exists(AUG_INPUT_DIR + "/JPEGImages/"):
+        os.makedirs(AUG_INPUT_DIR + "/JPEGImages/")
+
+
 def main():
+    create_dir()
+
     # augments images and annotation xmls
     for file in glob.glob("%s/Annotations/*.xml" % INPUT_DIR):
         print("Augmenting %s ..." % file)
@@ -25,7 +41,7 @@ def main():
         augment(annotation)
 
     # check augmented objects about if there is a detected object or not
-    for file in glob.glob("%s/*.xml" % OUTPUT_DIR):
+    for file in glob.glob("%s/Annotations/*.xml" % AUG_INPUT_DIR):
         an.inspect(file)
 
 
@@ -34,12 +50,20 @@ def augment(annotation):
 
     for i in range(AUGMENT_SIZE):
         filename = annotation["filename"]
-        sp = filename.split(".")
-        outfile = "%s/%s-%02d.%s" % (OUTPUT_DIR, sp[0], i, sp[-1])
+        sp = os.path.splitext(filename)
+        old_filename_except_ext = sp[0]
+        new_filename_except_ext = "%s-%03d" % (old_filename_except_ext, i)
+        old_filename_ext = sp[1]  # included dot
+        new_image_filename = "%s%s" % (new_filename_except_ext, old_filename_ext)
+        new_image_file_path = "%s/JPEGImages/%s" % (AUG_INPUT_DIR, new_image_filename)
+        new_xml_file_path = "%s/Annotations/%s.xml" % (
+            AUG_INPUT_DIR,
+            new_filename_except_ext,
+        )
 
         seq_det = seq.to_deterministic()
 
-        image = cv2.imread("%s/JPEGImages/%s" % (INPUT_DIR, annotation["filename"]))
+        image = cv2.imread("%s/JPEGImages/%s" % (INPUT_DIR, filename))
         _bbs = []
         for obj in annotation["objects"]:
             bb = ia.BoundingBox(
@@ -60,16 +84,18 @@ def augment(annotation):
             .cut_out_of_image()
         )
 
-        writer = Writer(
-            outfile, annotation["size"]["width"], annotation["size"]["height"]
+        xml_writer = Writer(
+            new_image_file_path,
+            annotation["size"]["width"],
+            annotation["size"]["height"],
         )
         for bb in bbs_aug.bounding_boxes:
-            writer.addObject(
+            xml_writer.addObject(
                 bb.label, float(bb.x1), float(bb.y1), float(bb.x2), float(bb.y2)
             )
 
-        cv2.imwrite(outfile, image_aug)
-        writer.save("%s.xml" % outfile.split(".")[0])
+        cv2.imwrite(new_image_file_path, image_aug)
+        xml_writer.save(new_xml_file_path)
 
 
 if __name__ == "__main__":
