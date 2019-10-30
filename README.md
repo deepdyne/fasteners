@@ -18,7 +18,7 @@ $ pipenv install
 First of all, it's need to make directories by following cmd.
 
 ```
-mkdir {vott_sources,vott_targets}/xxx_datasets
+mkdir {datasets_raw,datasets_vott,datasets_voc}/xxx_datasets
 ```
 
 # 2. VoTT Flow
@@ -28,9 +28,9 @@ do Annotion by VoTT
 - Firstly, create Security Token and save it to somewhere private space
 - Connections:
   - target connection
-    - select local storage of vott_targets/xxx_dataset
+    - select local storage of datasets_vott/xxx_dataset
   - source connection
-    - select local storage of vott_sources/xxx_dataset
+    - select local storage of datasets_raw/xxx_dataset
 - Project settings
   - select security token and target/source connection that i have created
   - name is like `xxx_dataset_vott.vott` since there is already same name folder.
