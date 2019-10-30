@@ -15,6 +15,14 @@ $ pipenv install
 
 # Flow
 
+First of all, make directories.
+
+```
+mkdir xxx_dataset {datasets,datasets_final,vott_sources,vott_targets}
+```
+
+About VoTT
+
 1. Create dataest in datasets folder
   - like `datasets/xxx_datasets/xxx_class/xxx.jpg`
 1. Do annotation by VoTT
