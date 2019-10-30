@@ -23,15 +23,22 @@ mkdir {datasets,datasets_final,vott_sources,vott_targets}/xxx_datasets
 
 About VoTT
 
-1. Create dataest in datasets folder
-  - like `datasets/xxx_datasets/xxx_class/xxx.jpg`
-1. Do annotation by VoTT
-  - Firstly, create Security Token and save somewhere private space
-  - Create Connections:
-    - select local storage of datasets_vott/xxxx_datasets as source connection
-    - select local storage of voc_data as target connection
-  - Create Local Project and chose those settings
-    - name is `settings.vott` since there is already folder
+- Firstly, create Security Token and save somewhere private space
+- Connections:
+  - target connection
+    - select local storage of vott_targets/xxx_dataset
+  - source connection
+    - select local storage of vott_sources/xxx_dataset
+- Project settings
+  - select security token and target/source connection that i have created
+  - name is `settings.vott` since there is already dataset folder in source connection
+  - video frame rate is 1 sec
+- Export Setings
+  - providor: pascal voc
+  - asset state: only tagged assets
+  - tarinval:test = 80:20
+  - export unsinged: check
+
 
 # CMD
 
