@@ -36,7 +36,7 @@ do Annotion by VoTT
     - name is source_xxx_dataset
     - select local storage of datasets_raw/xxx_dataset
 - Project settings
-  - name is something which is not same dataset name
+  - name is `xxx_dataset`
   - select security token and target/source connection that i have created
   - name is like `xxx_dataset_vott.vott` since there is already same name folder.
   - video frame rate is 1 sec
@@ -51,7 +51,7 @@ after annotation is done, export proj as Pascal VOC
 # 3. Copy exported Pascal VOC files to the datasets folder
 
 ```
-$ co -R ./vott_targets/xxx_dataset/settings-PascalVOC-export/ ./datasets/xxx_dataset/
+$ cp -R ./datasets_vott/xxx_dataset/xxx_dataset-PascalVOC-export/* ./datasets_voc/xxx_dataset/
 ```
 
 # 4. Auto Annotation and recreate xxx.txt
