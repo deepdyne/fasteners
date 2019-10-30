@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>2019-10-30-143753.mp4#t=5.666667.jpg</filename>
+    <path>settings-PascalVOC-export/Annotations/2019-10-30-143753.mp4#t=5.666667.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1184</width>
+        <height>656</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>S001</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>490.7989371124889</xmin>
+        <ymin>263.83107028753994</ymin>
+        <xmax>751.9291408325951</xmax>
+        <ymax>377.0067891373802</ymax>
+    </bndbox>
+</object>
+</annotation>
