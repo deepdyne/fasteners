@@ -1,0 +1,42 @@
+{
+    "name": "settings",
+    "securityToken": "my_token",
+    "sourceConnection": {
+        "name": "source_for_video_1class",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiM2VkNDNjOGMwOGU2ZmQ0MjRhNGViYWQxNzlkOWY5MzRmODRlMzUyODRlNGI3ZTM0NTBiZmNjMmRhNjMxMjJjODVkMzBhYmUzODA4MDY0NWE5MDliZDZmYmQ1MjMzZjMzMjA1ODBkNWRhZTFiOTQ1MmI0MWJiN2U5YzFlYjQ3ZjE1YTMwNDcyZjU4ZmRlNjllZGVmZmNjYmYyZjBjYTJhYiIsIml2IjoiYzU4ZDNhMWM1YmQ3MDkyNzllNzBlOWE0NmYwODU5MWFhODhlYThkNGNiYmYxNTcxIn0="
+        },
+        "id": "jrKnofgAS"
+    },
+    "targetConnection": {
+        "name": "target_for_video_1class",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZjExMDE0N2I4Yjg2ODMzMDg1ZDQ3YmNkNDJkMmQ0M2ExYjAxMzAyZDkwZDZhOGU3ZTc2Y2E3OTUzMjg2MjU0NTczNTc4ZGJhOTk2ZTJjNjAyMDViOWFjYjlhYzNlNGE3OTlmNjg5OGNjZDY1YjNmNWRkNWZhMDI0MDlkYjc1OGE1OGZiYWNiN2I2M2ViNmE2MzUzMzBkNjc3ZmViODI2ZCIsIml2IjoiOWQ2ODQ4ZTA0NWRmZjZkYTUxNzBjY2Y1YzA5NDQxZmFhOGQzYWNjNDU5NzNmMzQxIn0="
+        },
+        "id": "L66cWnYsu"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "S001",
+            "color": "#800000"
+        }
+    ],
+    "id": "7RSX3ck4h",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "vottJson",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZDE1ZWI2M2ExZjkxYWIwMDM2NGQyNDFhMDQzYjU3YTAyYzMzNDE3Yzk3NWNiODc1ODQyZDBiNDk3MjhhNTZjMDc3NTVlYThiMjI0MjZiY2M3NGViNzk2ZDAzMzJlNDE1IiwiaXYiOiJhMWYwZTVjNmE0MzY3ZmFhYzJkMmVhZjQ0YmYyZGU0MTk4YjhmZTM2ZDFhNGUxODcifQ=="
+        }
+    },
+    "version": "2.1.0"
+}

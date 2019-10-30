@@ -31,7 +31,7 @@ About VoTT
     - select local storage of datasets_vott/xxxx_datasets as source connection
     - select local storage of voc_data as target connection
   - Create Local Project and chose those settings
-
+    - name is `settings.vott` since there is already folder
 
 # CMD
 
