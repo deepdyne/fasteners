@@ -16,24 +16,95 @@ from util import sequence
 VOC_DIR_NAME = "datasets_voc"
 DATASET_NAME = "video_one_class"
 INPUT_DIR = f"{VOC_DIR_NAME}/{DATASET_NAME}"
-AUG_INPUT_DIR = f"{VOC_DIR_NAME}/{DATASET_NAME}_aug"
+TRAIN_DIR = f"{INPUT_DIR}/ImageSets/Main"
 AUGMENT_SIZE = 1
+TRAIN_PERCENTAGE = 0.8
 
 
-def create_dir():
-    if not os.path.exists(AUG_INPUT_DIR):
-        os.makedirs(AUG_INPUT_DIR)
-    if not os.path.exists(AUG_INPUT_DIR + "/Annotations/"):
-        os.makedirs(AUG_INPUT_DIR + "/Annotations/")
-    if not os.path.exists(AUG_INPUT_DIR + "/ImageSets/"):
-        os.makedirs(AUG_INPUT_DIR + "/ImageSets/")
-    if not os.path.exists(AUG_INPUT_DIR + "/JPEGImages/"):
-        os.makedirs(AUG_INPUT_DIR + "/JPEGImages/")
+def get_cnt_of_xml_files(xml_files):
+    return len(xml_files)
+
+
+def get_xml_files():
+    return glob.glob("%s/Annotations/*.xml" % INPUT_DIR)
+
+
+def get_cnt_of_train(xml_files):
+    cnt_of_files = len(xml_files)
+    cnt_of_train = int(TRAIN_PERCENTAGE * cnt_of_files)
+    return cnt_of_train
+
+
+def get_all_classes(xml_files):
+    class_names = []
+    for xml in xml_files:
+        annotation = an.parse_xml(xml)
+        for obj in annotation["objects"]:
+            class_name = obj["name"]
+            if not class_name in class_names:
+                class_names.append(class_name)
+    return class_names
+
+
+def create_txt(class_name, target_xmls, type_name):
+    """
+    target_xmls is eigher trainval or test xmls
+    """
+    with open(f"{TRAIN_DIR}/{class_name}_{type_name}.txt", "w") as f:
+        for xml in target_xmls:
+            annotation = an.parse_xml(xml)
+            image_id = annotation["filename"]
+            has_class = False
+            for obj in annotation["objects"]:
+                cn = obj["name"]
+                if class_name == cn:
+                    has_class = True
+                    break
+            if has_class == True:
+                has_obj = 1
+            else:
+                has_obj = -1
+            row = f"{image_id} {has_obj}\n"
+            f.write(row)
+
+
+def create_summary_txt():
+    for file_type in ["trainval", "test"]:
+        file_names = []
+        for file_name in glob.glob(f"{TRAIN_DIR}/*_{file_type}.txt"):
+            file_names.append(file_name)
+
+        image_ids = []
+        print("file_names", file_names)
+        for file_name in file_names:
+            image_file_names = (
+                open(file_name)
+                .read()
+                .strip()
+                .split()[0::2]  # [0::2] means only takes odd no items
+            )
+            image_file_ids = list(
+                map(lambda x: os.path.splitext(x)[0], image_file_names)
+            )
+            image_ids = image_file_ids
+
+        with open("{}/{}.txt".format(TRAIN_DIR, file_type), "w") as f:
+            for image_id in image_ids:
+                f.write("%s\n" % image_id)
+
+
+def create_trainval_and_test(xml_files, cnt_of_train):
+    trainval_files = []
+    test_files = []
+    for i, file in enumerate(xml_files):
+        if i < cnt_of_train:
+            trainval_files.append(file)
+        else:
+            test_files.append(file)
+    return trainval_files, test_files
 
 
 def main():
-    create_dir()
-
     # augments images and annotation xmls
     for file in glob.glob("%s/Annotations/*.xml" % INPUT_DIR):
         print("Augmenting %s ..." % file)
@@ -41,8 +112,25 @@ def main():
         augment(annotation)
 
     # check augmented objects about if there is a detected object or not
-    for file in glob.glob("%s/Annotations/*.xml" % AUG_INPUT_DIR):
+    for file in glob.glob("%s/Annotations/*.xml" % INPUT_DIR):
         an.inspect(file)
+
+    # delete all files in ImageSets/Main
+    for dirpath, dirnames, filenames in os.walk(TRAIN_DIR):
+        for filename in filenames:
+            os.remove(os.path.join(dirpath, filename))
+
+    # create xxx_{trainva,text}.txt
+    xml_files = get_xml_files()
+    cnt_of_xml_files = get_cnt_of_xml_files(xml_files)
+    cnt_of_train = get_cnt_of_train(xml_files)
+    trainval_files, test_files = create_trainval_and_test(xml_files, cnt_of_train)
+    class_names = get_all_classes(xml_files)
+    for class_name in class_names:
+        create_txt(class_name, trainval_files, "trainval")
+        create_txt(class_name, test_files, "test")
+
+    create_summary_txt()
 
 
 def augment(annotation):
@@ -55,9 +143,9 @@ def augment(annotation):
         new_filename_except_ext = "%s-%03d" % (old_filename_except_ext, i)
         old_filename_ext = sp[1]  # included dot
         new_image_filename = "%s%s" % (new_filename_except_ext, old_filename_ext)
-        new_image_file_path = "%s/JPEGImages/%s" % (AUG_INPUT_DIR, new_image_filename)
+        new_image_file_path = "%s/JPEGImages/%s" % (INPUT_DIR, new_image_filename)
         new_xml_file_path = "%s/Annotations/%s.xml" % (
-            AUG_INPUT_DIR,
+            INPUT_DIR,
             new_filename_except_ext,
         )
 
@@ -85,7 +173,7 @@ def augment(annotation):
         )
 
         xml_writer = Writer(
-            new_image_file_path,
+            new_image_filename,
             annotation["size"]["width"],
             annotation["size"]["height"],
         )
