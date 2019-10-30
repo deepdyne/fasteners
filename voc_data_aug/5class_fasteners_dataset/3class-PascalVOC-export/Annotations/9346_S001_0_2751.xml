@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>9346_S001_0_2751.jpg</filename>
+    <path>3class-PascalVOC-export/Annotations/9346_S001_0_2751.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>4032</width>
+        <height>1960</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>S001</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>2073.0434782608695</xmin>
+        <ymin>1147.5674715909092</ymin>
+        <xmax>3085.913043478261</xmax>
+        <ymax>1384.2151988636365</ymax>
+    </bndbox>
+</object>
+</annotation>

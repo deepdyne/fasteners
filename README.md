@@ -1,5 +1,14 @@
 # Fasteners
 
+# Dependencies
+
+```
+$ yay -S opencv2
+$ pipenv install
+```
+
+# CODE
+
 - SXXX = Screw
 - BXXX = Bolt
 - NXXX = Nut
