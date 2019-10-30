@@ -18,7 +18,7 @@ $ pipenv install
 First of all, it's need to make directories by following cmd.
 
 ```
-mkdir {datasets,vott_sources,vott_targets}/xxx_datasets
+mkdir {vott_sources,vott_targets}/xxx_datasets
 ```
 
 # 2. VoTT Flow
@@ -43,11 +43,17 @@ do Annotion by VoTT
 
 after annotation is done, export proj as Pascal VOC
 
-# 3. Auto Annotation and recreate xxx.txt
+# 3. Copy exported Pascal VOC files to the datasets folder
+
+```
+$ co -R ./vott_targets/xxx_dataset/settings-PascalVOC-export/ ./datasets/xxx_dataset/
+```
+
+# 4. Auto Annotation and recreate xxx.txt
 
 TODO
 
-# 4. Convert Pascal VOC to YOLO Style
+# 5. Convert Pascal VOC to YOLO Style
 
 TODO
 
