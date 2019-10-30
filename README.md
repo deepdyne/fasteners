@@ -31,7 +31,7 @@ About VoTT
     - select local storage of vott_sources/xxx_dataset
 - Project settings
   - select security token and target/source connection that i have created
-  - name is `settings.vott` since there is already dataset folder in source connection
+  - name is like `xxx_dataset_vott.vott` since there is already same name folder.
   - video frame rate is 1 sec
 - Export Setings
   - providor: pascal voc
