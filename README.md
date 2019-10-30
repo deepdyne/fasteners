@@ -13,17 +13,19 @@ $ pipenv install
 - BXXX = Bolt
 - NXXX = Nut
 
-# Flow
+# 1. Data preparation
 
-First of all, make directories.
+First of all, it's need to make directories by following cmd.
 
 ```
-mkdir {datasets,datasets_final,vott_sources,vott_targets}/xxx_datasets
+mkdir {datasets,vott_sources,vott_targets}/xxx_datasets
 ```
 
-About VoTT
+# 2. VoTT Flow
 
-- Firstly, create Security Token and save somewhere private space
+do Annotion by VoTT
+
+- Firstly, create Security Token and save it to somewhere private space
 - Connections:
   - target connection
     - select local storage of vott_targets/xxx_dataset
@@ -39,6 +41,15 @@ About VoTT
   - tarinval:test = 80:20
   - export unsinged: check
 
+after annotation is done, export proj as Pascal VOC
+
+# 3. Auto Annotation and recreate xxx.txt
+
+TODO
+
+# 4. Convert Pascal VOC to YOLO Style
+
+TODO
 
 # CMD
 
