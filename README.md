@@ -92,3 +92,4 @@ $ python voc_label.py
 - https://github.com/zchrissirhcz/imageset-viewer
 - http://mukopikmin.hatenablog.com/entry/2018/12/05/002339
 - https://github.com/tzutalin/labelImg
+- https://github.com/aleju/imgaug
