@@ -29,8 +29,10 @@ do Annotion by VoTT
 - Firstly, create Security Token and save it to somewhere private space
 - Connections:
   - target connection
+    - name is target_xxx_dataset
     - select local storage of datasets_vott/xxx_dataset
   - source connection
+    - name is source_xxx_dataset
     - select local storage of datasets_raw/xxx_dataset
 - Project settings
   - name is xxx_dataset
