@@ -5,6 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+autopep8 = "*"
 
 [packages]
 numpy = "*"
@@ -12,6 +13,9 @@ keras = "*"
 tensorflow = "==1.13.1"
 pillow = "*"
 matplotlib = "*"
+imgaug = "*"
+opencv-python = "*"
+pascal-voc-writer = "*"
 
 [requires]
 python_version = "3.6"

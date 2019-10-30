@@ -65,5 +65,8 @@ $ python voc_label.py
 
 # REFERENCES:
 
-- original: https://github.com/wakuphas/wakuphas/blob/master/AI/Scripts/increase_img.py
-- reference: https://wakuphas.hatenablog.com/entry/2018/09/19/025941
+- https://github.com/wakuphas/wakuphas/blob/master/AI/Scripts/increase_img.py
+- https://wakuphas.hatenablog.com/entry/2018/09/19/025941
+- https://github.com/zchrissirhcz/imageset-viewer
+- http://mukopikmin.hatenablog.com/entry/2018/12/05/002339
+- https://github.com/tzutalin/labelImg
