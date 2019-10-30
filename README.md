@@ -18,7 +18,7 @@ $ pipenv install
 First of all, it's need to make directories by following cmd.
 
 ```
-$ mkdir {datasets_raw}/xxx_datasets 
+$ mkdir {datasets_raw}/xxx_dataset
 $ # NOTE: datasets_vott will be crated by VoTT and Voc. and also datasets_voc will be copied from files exported by VoTT
 ```
 
@@ -33,6 +33,7 @@ do Annotion by VoTT
   - source connection
     - select local storage of datasets_raw/xxx_dataset
 - Project settings
+  - name is xxx_dataset
   - select security token and target/source connection that i have created
   - name is like `xxx_dataset_vott.vott` since there is already same name folder.
   - video frame rate is 1 sec
