@@ -18,7 +18,7 @@ $ pipenv install
 First of all, make directories.
 
 ```
-mkdir xxx_dataset {datasets,datasets_final,vott_sources,vott_targets}
+mkdir {datasets,datasets_final,vott_sources,vott_targets}/xxx_datasets
 ```
 
 About VoTT
