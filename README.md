@@ -3,6 +3,8 @@
 # Dependencies
 
 ```
+$ # DL VoTT snap from github
+$ sudo snap install "~/Downloads/vott-2.1.0-linux.snap --dangerous
 $ yay -S opencv2
 $ pipenv install
 ```
