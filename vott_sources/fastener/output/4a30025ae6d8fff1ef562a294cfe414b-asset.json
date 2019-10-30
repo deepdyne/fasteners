@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "4a30025ae6d8fff1ef562a294cfe414b",
+        "name": "fastener_0_8009.jpg",
+        "path": "file:/home/mike/Workspace/DA/fastener/output/fastener_0_8009.jpg",
+        "size": {
+            "width": 4032,
+            "height": 1960
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "ZeaKtMYUM",
+            "type": "RECTANGLE",
+            "tags": [
+                "fastener"
+            ],
+            "boundingBox": {
+                "height": 996.7521367521367,
+                "width": 1325.3979238754325,
+                "left": 1040.7861591695503,
+                "top": 561.8073361823361
+            },
+            "points": [
+                {
+                    "x": 1040.7861591695503,
+                    "y": 561.8073361823361
+                },
+                {
+                    "x": 2366.184083044983,
+                    "y": 561.8073361823361
+                },
+                {
+                    "x": 2366.184083044983,
+                    "y": 1558.559472934473
+                },
+                {
+                    "x": 1040.7861591695503,
+                    "y": 1558.559472934473
+                }
+            ]
+        }
+    ],
+    "version": "2.1.0"
+}

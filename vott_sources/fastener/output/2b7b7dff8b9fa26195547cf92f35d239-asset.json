@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "2b7b7dff8b9fa26195547cf92f35d239",
+        "name": "fastener_0_8289.jpg",
+        "path": "file:/home/mike/Workspace/DA/fastener/output/fastener_0_8289.jpg",
+        "size": {
+            "width": 4032,
+            "height": 1960
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "G2oQKXXu8",
+            "type": "RECTANGLE",
+            "tags": [
+                "fastener"
+            ],
+            "boundingBox": {
+                "height": 424.3874643874644,
+                "width": 1333.7688581314878,
+                "left": 1640.7031141868513,
+                "top": 821.4654558404559
+            },
+            "points": [
+                {
+                    "x": 1640.7031141868513,
+                    "y": 821.4654558404559
+                },
+                {
+                    "x": 2974.4719723183393,
+                    "y": 821.4654558404559
+                },
+                {
+                    "x": 2974.4719723183393,
+                    "y": 1245.8529202279203
+                },
+                {
+                    "x": 1640.7031141868513,
+                    "y": 1245.8529202279203
+                }
+            ]
+        }
+    ],
+    "version": "2.1.0"
+}

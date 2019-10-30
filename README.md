@@ -13,6 +13,18 @@ $ pipenv install
 - BXXX = Bolt
 - NXXX = Nut
 
+# Flow
+
+1. Create dataest in datasets folder
+  - like `datasets/xxx_datasets/xxx_class/xxx.jpg`
+1. Do annotation by VoTT
+  - Firstly, create Security Token and save somewhere private space
+  - Create Connections:
+    - select local storage of datasets_vott/xxxx_datasets as source connection
+    - select local storage of voc_data as target connection
+  - Create Local Project and chose those settings
+
+
 # CMD
 
 ```

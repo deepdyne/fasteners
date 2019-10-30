@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "8dae43c5752e1baa8e6f259ab0c13753",
+        "name": "fastener_0_2302.jpg",
+        "path": "file:/home/mike/Workspace/DA/fastener/output/fastener_0_2302.jpg",
+        "size": {
+            "width": 4032,
+            "height": 1960
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "Cf-VgaHZb",
+            "type": "RECTANGLE",
+            "tags": [
+                "fastener"
+            ],
+            "boundingBox": {
+                "height": 206.6096866096866,
+                "width": 686.4166089965398,
+                "left": 1732.7833910034603,
+                "top": 927.5623219373219
+            },
+            "points": [
+                {
+                    "x": 1732.7833910034603,
+                    "y": 927.5623219373219
+                },
+                {
+                    "x": 2419.2000000000003,
+                    "y": 927.5623219373219
+                },
+                {
+                    "x": 2419.2000000000003,
+                    "y": 1134.1720085470085
+                },
+                {
+                    "x": 1732.7833910034603,
+                    "y": 1134.1720085470085
+                }
+            ]
+        }
+    ],
+    "version": "2.1.0"
+}
