@@ -17,7 +17,7 @@ VOC_DIR_NAME = "datasets_voc"
 DATASET_NAME = "video_one_class"
 INPUT_DIR = f"{VOC_DIR_NAME}/{DATASET_NAME}"
 TRAIN_DIR = f"{INPUT_DIR}/ImageSets/Main"
-AUGMENT_SIZE = 1
+AUGMENT_SIZE = 10
 TRAIN_PERCENTAGE = 0.8
 
 
