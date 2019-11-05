@@ -5,7 +5,7 @@
         "name": "source_video_c1",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZmZjZjljMmFiZmFmZGI2OTQ4ZTNmNjY4MGFlODhkZmY5MTZjZDcxNmY1NjU1YzQ1Mzc2ZmU5ZjliZGQyNTc0NjE3NDM5OTg5NzA0NWFkY2ViMmUwYTIxOThkODUzNGFkZDJlNTFmMjllOGIyMzhmYTU2NTAzNmQyOTRlMmJiZTcyNDJhZWZkNWZjNjE4NzVjMTg1ZmZhMjNhYjgxOTJkMiIsIml2IjoiMzk5YWY2Y2E2N2VkYzMzYTYzYzA1NGJkYWE3NjcwNjU2ZjI0YzJlMGE0MDc0NjRmIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiOTQyY2FlOTk3NWM1YzBiYzJlYjNjYjNhNGQ2YmRjNzA0M2ZjZWZlNDM4MDJlOThiMjhlYjZmZTczN2ZiNjM4NzYxZWI5YmJmNmI4YzA0NzMyMTYzNDQ4MDY4NjdmZWI5MTBkMzgyMGJhYTQ5MmQ2ZTViNWYyMjdmZGNjOTRiMWM1MzFkOGY0N2UyYjc5OTUyNmNiYzdiZTQwNjA2MmQwYiIsIml2IjoiMzYxZDQzOWZiMzgzMjUyMTM2OTcyYTJiMzM3NjA4OGU1ZGJjYjJmNGM3ZTgxOWFjIn0="
         },
         "id": "gqViIY5_s"
     },
@@ -13,7 +13,7 @@
         "name": "target_video_c1",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNjdkNzA5NjcxNDI5OThkZTIxY2NjMTg1NTdiZmQwY2MzNmM1YjQwNmJiMmVmZDFmYWQ2ZmI0MzNkZjEwNTg4YmVkZWIzNGEzZWFkYmNkOWVmOTUyOGFiYmNmMGEwNjFiODI2NTY2MWM1YTE2NGYyNjk5MDY0ZWJiMTg1MWZlNTk5MTJiMDk5NjhjZmU4NTBjYWNhMDM2NGNkZjQ2MGEzZiIsIml2IjoiMzRmMjNmZWMzMDNjODBhYTRmNDhmNWFmNGU1ZDkwMDc5YWM0OWY1ODY4ZmRlNmY3In0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZWM2MWE2NzRlYjUzYmIzODc0ZDQ3N2I4Yjg0YWZjN2JjNmRlYTc1MjIzNmIwMWYxZGZkZTI0MzFmZjdjYjkzZTE5MTIwMDAzN2ZkNmQ4MWM0MGQ1YzM0Yjc1M2VhZDY4ZjE5MDE4YTIwNTBkM2Q2YmMzYjg0Y2FlODM5YWFmMjdkMjdiYTRhY2UwNmVkMzBhZGJjOWE0NGIzZjQwYzQ5MiIsIml2IjoiYjE5ZDVhMzVhNDVkY2M2NDQzNjM1ZjE4YjA3MWNkODY2NjQyMDgyNDQ1ZDBhYTVkIn0="
         },
         "id": "gqADK-n8E"
     },
@@ -24,6 +24,10 @@
         {
             "name": "S001",
             "color": "#000080"
+        },
+        {
+            "name": "S002",
+            "color": "#00FF00"
         }
     ],
     "id": "dQ7O7z6AD",
@@ -35,7 +39,7 @@
     "exportFormat": {
         "providerType": "pascalVOC",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZWEzMjFlMDIwOGYzMDY3ZThmNTYyYTBiNDEwNzI4Yjc1ZmY4ZjY3YmU0MmVmYjkzOWYxY2I2ZDE4YzY5YmU4ZjBlOTY5YmJkMDBlMDhhNDY1Yjg3M2Q5NjZkZTcxMGIyZjk1ZWMxMzhiMzhiNWIzMDhmZWVhYzhiMzQyNzAxOGQyZGU5NjhmZDM1OGVlN2FjYWU3YjJlOGM0Y2UxNTFkYiIsIml2IjoiNjdjZGRmMmNhODk5NDJiYTMxYzk0MWQxZDNmOGRhNzQ1MGVhMTFlZDU4MTQzYmI0In0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiOGRjOGU2NjUwOTUwN2NkOTQ0YTk1Mjk2MTFmNDZlNWQyOTk2NTFmYTI0M2YzYzk1YmJjYjg1NWEzMGUzMTcwNzIwNTQ2MjdkMzNkYjllOWMxZDI5YTY2N2Y1YTM0MTM3ZDFhODY2ZTlhM2IyZDJjMjExZTVjMWMwY2E1MDk0ZWNmZWI4NWE2YTk2NjRmNDQzOTdhNzM5MGM1NmU3NmE2NyIsIml2IjoiYmViZWI1ZjI3MGVjM2FiMzVhZmEwOWY1M2Y2NDFjMWJhMWFmYzA2N2JkOTU1OGI5In0="
         }
     },
     "version": "2.1.0",
@@ -1002,6 +1006,2293 @@
                 "type": 2
             },
             "timestamp": 18
+        },
+        "9088e7ccb012004a66cb6d4f6b85b41b": {
+            "format": "mp4",
+            "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+            "name": "2019-11-05-153237.mp4",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "state": 2,
+            "type": 2
+        },
+        "d180a9c5443cfa90d24cc3df3e89deb6": {
+            "id": "d180a9c5443cfa90d24cc3df3e89deb6",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=0",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=0",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0
+        },
+        "9dd09236d7bb8d5d464fec0556fbd096": {
+            "id": "9dd09236d7bb8d5d464fec0556fbd096",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=2",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=2",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2
+        },
+        "eeec131a74670a8be6033eed6e0073ec": {
+            "id": "eeec131a74670a8be6033eed6e0073ec",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=1.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=1.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1.5
+        },
+        "bd3bd7b20a9e831d2c4e4ff3404e835f": {
+            "id": "bd3bd7b20a9e831d2c4e4ff3404e835f",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=1",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=1",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 1
+        },
+        "eeb5665efcf4c13629c9224c0b63bb3a": {
+            "id": "eeb5665efcf4c13629c9224c0b63bb3a",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=0.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=0.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 0.5
+        },
+        "a4849dcf64c57a0b61c275bef1e31762": {
+            "id": "a4849dcf64c57a0b61c275bef1e31762",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=2.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=2.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 2.5
+        },
+        "8beb304fc19885bc2ad016eb7c73c041": {
+            "id": "8beb304fc19885bc2ad016eb7c73c041",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=3",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=3",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3
+        },
+        "2bdd0a52b597f8319dc1eb803dbed74e": {
+            "id": "2bdd0a52b597f8319dc1eb803dbed74e",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=3.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=3.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 3.5
+        },
+        "c0c779953d78d7be3ebaff9cebe6e828": {
+            "id": "c0c779953d78d7be3ebaff9cebe6e828",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=4",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=4",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 4
+        },
+        "6f3ec99b2ca5e4af4adc785c18b8c89f": {
+            "id": "6f3ec99b2ca5e4af4adc785c18b8c89f",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=4.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=4.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 4.5
+        },
+        "b251c17e4718e87c5801b28fb467947d": {
+            "id": "b251c17e4718e87c5801b28fb467947d",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 5
+        },
+        "09f8d43e2ec2fa25daac66903fd4a40d": {
+            "id": "09f8d43e2ec2fa25daac66903fd4a40d",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=5.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=5.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 5.5
+        },
+        "adf30989af51f7f4d7037e117504cc6f": {
+            "id": "adf30989af51f7f4d7037e117504cc6f",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=6",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=6",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 6
+        },
+        "183cb7227a0d8146f2f0eb23b3ffbb69": {
+            "id": "183cb7227a0d8146f2f0eb23b3ffbb69",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=6.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=6.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 6.5
+        },
+        "8b00405cf8b777297ede6be645dd2be5": {
+            "id": "8b00405cf8b777297ede6be645dd2be5",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=7",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=7",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 7
+        },
+        "aff5e091e2a3aa5d587e5155c5d9ab82": {
+            "id": "aff5e091e2a3aa5d587e5155c5d9ab82",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=7.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=7.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 7.5
+        },
+        "3b1f93d0db8468a1d4d2f4b5de12194d": {
+            "id": "3b1f93d0db8468a1d4d2f4b5de12194d",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=8",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=8",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 8
+        },
+        "1689de65d5d83370611cd19af95355c6": {
+            "id": "1689de65d5d83370611cd19af95355c6",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=8.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=8.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 8.5
+        },
+        "c735eb8fc25c135eefe008622ec18dfc": {
+            "id": "c735eb8fc25c135eefe008622ec18dfc",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=9",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=9",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 9
+        },
+        "c4d41c45bdd2f99ca2d76e9be348bf9e": {
+            "id": "c4d41c45bdd2f99ca2d76e9be348bf9e",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=9.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=9.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 9.5
+        },
+        "70cd38f547b4104a2d9022d8f0ac2ed5": {
+            "id": "70cd38f547b4104a2d9022d8f0ac2ed5",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=10",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=10",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 10
+        },
+        "f75659714290c4dd5f76ac0e6b5f32ab": {
+            "id": "f75659714290c4dd5f76ac0e6b5f32ab",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=10.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=10.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 10.5
+        },
+        "b97fd7c5d20908a91490ca6702108928": {
+            "id": "b97fd7c5d20908a91490ca6702108928",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=11",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=11",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 11
+        },
+        "719a4ab14196703e2adcd2c6daa70ee7": {
+            "id": "719a4ab14196703e2adcd2c6daa70ee7",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=11.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=11.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 11.5
+        },
+        "40cf741fba310117afd9ddc16395c35d": {
+            "id": "40cf741fba310117afd9ddc16395c35d",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=12",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=12",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 12
+        },
+        "c1570cd5c2e2ef3a5af7c62f8073b880": {
+            "id": "c1570cd5c2e2ef3a5af7c62f8073b880",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=12.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=12.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 12.5
+        },
+        "55133b2021ec6653e9c1183c3cfde132": {
+            "id": "55133b2021ec6653e9c1183c3cfde132",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=13",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=13",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 13
+        },
+        "61baecbcd85614f84f661d68a5cc732f": {
+            "id": "61baecbcd85614f84f661d68a5cc732f",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=13.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=13.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 13.5
+        },
+        "ce8861ea5c9aa1be9e727c27d92a5b44": {
+            "id": "ce8861ea5c9aa1be9e727c27d92a5b44",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=14",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=14",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 14
+        },
+        "d36ca22276364fef438f0fbb38881e5c": {
+            "id": "d36ca22276364fef438f0fbb38881e5c",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=14.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=14.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 14.5
+        },
+        "26d38df393f052f8ebefe7bab0ec81d5": {
+            "id": "26d38df393f052f8ebefe7bab0ec81d5",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=15",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=15",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 15
+        },
+        "b34f012fc257ff7f5beb29ccfe1c5cbd": {
+            "id": "b34f012fc257ff7f5beb29ccfe1c5cbd",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=15.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=15.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 15.5
+        },
+        "651c5f6b21eae28aefd673fd146a2ad9": {
+            "id": "651c5f6b21eae28aefd673fd146a2ad9",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=16",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=16",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 16
+        },
+        "df626e9feafbb9bd6d8d6a197814bdcb": {
+            "id": "df626e9feafbb9bd6d8d6a197814bdcb",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=16.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=16.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 16.5
+        },
+        "bf9d828e614e3e0c8c3c28ab8a6f8e68": {
+            "id": "bf9d828e614e3e0c8c3c28ab8a6f8e68",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=17",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=17",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 17
+        },
+        "767de10b6bc1d1363e0a574ed6ebe6a9": {
+            "id": "767de10b6bc1d1363e0a574ed6ebe6a9",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=17.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=17.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 17.5
+        },
+        "775acbc02635323a8f68744d861891fd": {
+            "id": "775acbc02635323a8f68744d861891fd",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=18",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=18",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 18
+        },
+        "ea0dd479514543c5fe2258e8e2e6194f": {
+            "id": "ea0dd479514543c5fe2258e8e2e6194f",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=18.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=18.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 18.5
+        },
+        "ac40e69712927dcaa2ea75074d60ad6f": {
+            "id": "ac40e69712927dcaa2ea75074d60ad6f",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=19",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=19",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 19
+        },
+        "8e8446906677ad7e8ee6fa483dd3cb76": {
+            "id": "8e8446906677ad7e8ee6fa483dd3cb76",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=19.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=19.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 19.5
+        },
+        "122c5379cbee4d36ed8776404f224a46": {
+            "id": "122c5379cbee4d36ed8776404f224a46",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=20",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=20",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 20
+        },
+        "f3ec18e3914f22d0d8c9b1a3b888b2b3": {
+            "id": "f3ec18e3914f22d0d8c9b1a3b888b2b3",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=20.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=20.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 20.5
+        },
+        "b3687d28eecb8ffaf326774ccab419c9": {
+            "id": "b3687d28eecb8ffaf326774ccab419c9",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=21",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=21",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 21
+        },
+        "0db778eb645bfa20593ee5af262675a2": {
+            "id": "0db778eb645bfa20593ee5af262675a2",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=21.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=21.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 21.5
+        },
+        "a465c4176e145e02f225a27a3980e6ab": {
+            "id": "a465c4176e145e02f225a27a3980e6ab",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=22",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=22",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 22
+        },
+        "9f9215f962014b60e3ba6ec46e1bf935": {
+            "id": "9f9215f962014b60e3ba6ec46e1bf935",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=22.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=22.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 22.5
+        },
+        "157bd5f0b945eb6057ad7c3b3451b2fc": {
+            "id": "157bd5f0b945eb6057ad7c3b3451b2fc",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=23",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=23",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 23
+        },
+        "10e3775a3fa8fdc6e60d24cf5e7d43cd": {
+            "id": "10e3775a3fa8fdc6e60d24cf5e7d43cd",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=23.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=23.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 23.5
+        },
+        "241a1eaad6287138f9bf85e062752b1d": {
+            "id": "241a1eaad6287138f9bf85e062752b1d",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=24",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=24",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 24
+        },
+        "83305d620cc47e4ca8146246e151ba51": {
+            "id": "83305d620cc47e4ca8146246e151ba51",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=24.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=24.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 24.5
+        },
+        "b4002c47a92bcdda2be9749bec2a2509": {
+            "id": "b4002c47a92bcdda2be9749bec2a2509",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=25",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=25",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 25
+        },
+        "fcd6bfc85af76fa5a8cd3fb717505ebc": {
+            "id": "fcd6bfc85af76fa5a8cd3fb717505ebc",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=25.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=25.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 25.5
+        },
+        "33654f8d627b6f1fcb6a98f7c470fac6": {
+            "id": "33654f8d627b6f1fcb6a98f7c470fac6",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=26",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=26",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 26
+        },
+        "a2bfbf2376bc4c2487fa83c3f7b3c213": {
+            "id": "a2bfbf2376bc4c2487fa83c3f7b3c213",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=26.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=26.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 26.5
+        },
+        "f1be1bcf53e4453b699d9b11850e8060": {
+            "id": "f1be1bcf53e4453b699d9b11850e8060",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=27",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=27",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 27
+        },
+        "8b8a08d66d553abc42b56a4316c5802d": {
+            "id": "8b8a08d66d553abc42b56a4316c5802d",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=27.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=27.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 27.5
+        },
+        "45dda2730ade543314a4f242d4d8255b": {
+            "id": "45dda2730ade543314a4f242d4d8255b",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=28",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=28",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 28
+        },
+        "fcb6acd6f034eb833b477c131d907acc": {
+            "id": "fcb6acd6f034eb833b477c131d907acc",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=28.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=28.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 28.5
+        },
+        "a1fd24692a389c9c19503bccf437906e": {
+            "id": "a1fd24692a389c9c19503bccf437906e",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=29",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=29",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 29
+        },
+        "833af7fed291d7650fad71a338172648": {
+            "id": "833af7fed291d7650fad71a338172648",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=29.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=29.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 29.5
+        },
+        "0092339507b93383bc1aefc94cf7671b": {
+            "id": "0092339507b93383bc1aefc94cf7671b",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=30",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=30",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 30
+        },
+        "1ee331198930408d08919c2af9a2b645": {
+            "id": "1ee331198930408d08919c2af9a2b645",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=30.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=30.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 30.5
+        },
+        "35269ac15e65fde435ee248a1d66b485": {
+            "id": "35269ac15e65fde435ee248a1d66b485",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=31",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=31",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 31
+        },
+        "3741869fd1b234f6c8abfc4cf475b9b0": {
+            "id": "3741869fd1b234f6c8abfc4cf475b9b0",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=31.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=31.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 31.5
+        },
+        "4b3c133bd03530f84b6aef98994f703b": {
+            "id": "4b3c133bd03530f84b6aef98994f703b",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=32",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=32",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 32
+        },
+        "60cb070b6323892689e493190867c838": {
+            "id": "60cb070b6323892689e493190867c838",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=32.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=32.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 32.5
+        },
+        "3f07948ef66a727f88639ef399e75923": {
+            "id": "3f07948ef66a727f88639ef399e75923",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=33",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=33",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 33
+        },
+        "428f6d9930da98aaee039e3e62a69bec": {
+            "id": "428f6d9930da98aaee039e3e62a69bec",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=33.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=33.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 33.5
+        },
+        "f2f42bf2326825d47a4f70dbc69680b3": {
+            "id": "f2f42bf2326825d47a4f70dbc69680b3",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=34",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=34",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 34
+        },
+        "f972d0b22dd2c33783b8c1021004feaf": {
+            "id": "f972d0b22dd2c33783b8c1021004feaf",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=34.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=34.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 34.5
+        },
+        "03a74b0721f33b6471f1984f7ffc2445": {
+            "id": "03a74b0721f33b6471f1984f7ffc2445",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=35",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=35",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 35
+        },
+        "72f9130d8cf3e25dea2d382f2dc71cc3": {
+            "id": "72f9130d8cf3e25dea2d382f2dc71cc3",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=35.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=35.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 35.5
+        },
+        "8b6890749cd9755295a214341284664e": {
+            "id": "8b6890749cd9755295a214341284664e",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=36",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=36",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 36
+        },
+        "b4e0df4f9b0981ab02a4804de4bc9d9a": {
+            "id": "b4e0df4f9b0981ab02a4804de4bc9d9a",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=36.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=36.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 36.5
+        },
+        "871b5485321e6708aec04e809e0f9c77": {
+            "id": "871b5485321e6708aec04e809e0f9c77",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=37",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=37",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 37
+        },
+        "69d7e1caeb5b40e8d5c4d20373142eb2": {
+            "id": "69d7e1caeb5b40e8d5c4d20373142eb2",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=37.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=37.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 37.5
+        },
+        "b6622ddcf1748fdf9cc6e5fa57e61250": {
+            "id": "b6622ddcf1748fdf9cc6e5fa57e61250",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=38",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=38",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 38
+        },
+        "968a58b3d5e95cd418c6dd2577688518": {
+            "id": "968a58b3d5e95cd418c6dd2577688518",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=38.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=38.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 38.5
+        },
+        "ab26b75157d014635bce6a8fb3cdd7b4": {
+            "id": "ab26b75157d014635bce6a8fb3cdd7b4",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=39",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=39",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 39
+        },
+        "66f0b008970e18b58cba14fec8b2afd5": {
+            "id": "66f0b008970e18b58cba14fec8b2afd5",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=39.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=39.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 39.5
+        },
+        "fc8e5f09be18c52b232f2510542663b7": {
+            "id": "fc8e5f09be18c52b232f2510542663b7",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=40",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=40",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 40
+        },
+        "f68bf74c9d301177f23340d02ca471bf": {
+            "id": "f68bf74c9d301177f23340d02ca471bf",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=40.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=40.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 40.5
+        },
+        "045d6c7c679ed9def65d39c8e12a3be9": {
+            "id": "045d6c7c679ed9def65d39c8e12a3be9",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=41",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=41",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 41
+        },
+        "4e851d1e9b65baa7c53a4b671c0bc951": {
+            "id": "4e851d1e9b65baa7c53a4b671c0bc951",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=41.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=41.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 41.5
+        },
+        "2e471b8b4b1b2eaef21baac226c3d434": {
+            "id": "2e471b8b4b1b2eaef21baac226c3d434",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=42",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=42",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 42
+        },
+        "c26272b3caed5aec0ae5d207781469a0": {
+            "id": "c26272b3caed5aec0ae5d207781469a0",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=42.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=42.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 42.5
+        },
+        "67692e27593f4f2af3d889230ba2eb99": {
+            "id": "67692e27593f4f2af3d889230ba2eb99",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=43",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=43",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 43
+        },
+        "3a390e0f45375c3e1f652219800ee317": {
+            "id": "3a390e0f45375c3e1f652219800ee317",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=43.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=43.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 43.5
+        },
+        "8237d4637597c3f678b779f31e27402a": {
+            "id": "8237d4637597c3f678b779f31e27402a",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=44",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=44",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 44
+        },
+        "cd394d78b15107d56f4c5177c563e5c8": {
+            "id": "cd394d78b15107d56f4c5177c563e5c8",
+            "format": "5",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=44.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=44.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 44.5
+        },
+        "f940af92bbcedeef991c8743cbdddf58": {
+            "id": "f940af92bbcedeef991c8743cbdddf58",
+            "format": "mp4",
+            "state": 2,
+            "type": 3,
+            "name": "2019-11-05-153237.mp4#t=45",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4#t=45",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "9088e7ccb012004a66cb6d4f6b85b41b",
+                "name": "2019-11-05-153237.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-05-153237.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 45
         }
     }
 }
