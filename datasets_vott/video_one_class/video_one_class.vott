@@ -5,7 +5,7 @@
         "name": "source_video_c1",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZTQ2YWEyNjMzMzc1OTQyZWY5ZGZjNjU3OTk4Yjg3ZWMyMWU4Mjg0OTUwOWRiY2U3Y2YwNGNjODFmZDk4ZGM0ODhkMTc2NGM1YzAzODA0ZTVhZTFmNmQ4OGMzYWFkODgzYTEyYmZhYTY0OTJiMGYxZjA3MTA4NjNiNDRhMzQwMjZmZTBjZTU5NzIwYTllN2RhNWU0ZjIxNjM4M2FhMzYwNiIsIml2IjoiNjljOWRmNzZiZGQwYzNkOGM4N2JhMzRjNWViYzRhYzc5ZDU4MzNjYjRlMGVjZjA0In0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiOWE0NjBhZWU4MmJlOTIwMDcwM2I2NzUzZDBiOGYxNDg5MGYzODljMTRiMDAzM2ZkNGQyZTZiOGM4Y2Q0OWQyMThkMDFiZWFlOTU0MDkyNjU1MGEyYmExMDdjYTZjZGI3NzMwZjA5YzU3Y2I1MTQxODJjMDUxMzc1NjIyOGM5NGJmNmE4ZTIyYzUyZWU0YjgyODI3YTY5NTlhMTllY2EyNCIsIml2IjoiOWI4OWFkZWNhZTQ3ZGEwMDlmNDI3ZGVjNGYwZmVmNTQ2NDE4ZTFhN2E2NzA3MWNhIn0="
         },
         "id": "gqViIY5_s"
     },
@@ -13,7 +13,7 @@
         "name": "target_video_c1",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYjJmNzkwNTM2NjBlY2Q5MzAzZjA2YmFiYjVkNGI4MWI2ZWViOGE3ZGYxZGQxYzE3NTMxNzVkOTYzMTE3YjFiYjJjYmNiZmJiNmYxYzUwNDY2YjA4YjMyYmFiYjM4NDBiZGM2YjIwMDYzMGFiYTJjMGM0YWJkNGQwZDI1ZmU0ODdkODFlNDQwYmRhOTIyNTAyMmYyODUzNmRhZDIxNzdmYyIsIml2IjoiYTkwMjY0ZmRjM2E3OWY1MGFjMDQ3YzVmNGZmMDJmOGY0YTk0NGM5NzlkMDliOTVlIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiN2NmMDI0MjZlMWMwOWNmNTk2NDc4ZWEyZWUxZWIzNzE3YmNiZTYyZmU3YmVjM2NjODQ5YjVjMGJjYjAyMzQ1ODE0OGQ0NTBkMTI1MDRiZDY5ODMzNmVkOGU5MzA4ZWQ5YmM0OTQxZjFhNTYwOWU3YWU2Y2ZiYzczZjdkZGI0YmFkMmE2MWVlM2ZjNzI3M2Q4OWM4OGVjY2Q3Y2Q1OWZjMyIsIml2IjoiNjc0NTg0ZTY2NWFiNjc1ZWNiZWE3MzY3ZDA2N2NiYWNiZDBhNjM0NDljNzJiNGMxIn0="
         },
         "id": "gqADK-n8E"
     },
@@ -39,7 +39,7 @@
     "exportFormat": {
         "providerType": "pascalVOC",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiOGNmOGUyNGRmODliMTRiYmZkODJmZjJlMGVkYmYwYzgyZjMyMGE2MmZmMDliOGZiMjdiNDYwZjZhNGYyNzQ3YmYzZGQ1NDg1YjllNjBiMjk4ZGFhNTQyNWNkODAxNTJmODY2YzFlMjAwYTc5MTE5OGI1ZDc4ZDY5ZjAxNjVmNjFlZjg0OTVkNTczNWYyYWNkOGM4MTQyYzlmNzFjNjIyZiIsIml2IjoiNDlhMzNkZTY1N2Y5YjEzNTNhNGI1ZGE4Yjc3MzRkN2E2MTMxZTFmYmNkN2ZhZTE0In0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMTAwZjk5OTBiMzg1MzkyMmZmOTNlOTJjODk4MTQ2NmZlMjJkOTEwMTk3ZWE2MjZmOWJhYWM1MDJjOGE2YTk4MThhY2YxYzZlZTc4MTM2Y2IwYWY2YTVhZjFkNWU0NzRhYjZlZGQzZTkzNmI1ZTNlMWJiMGFiNTk0ZmIwYzE1NzMxM2FhNmM3YTM5MWQ3ZTg4MDM3OTUyNWUyZDQ5OTBiZiIsIml2IjoiNDI5OWQ1MGE4ZjgwODY0ZTNjYjlmNjM5YTI4ZDFjZmI2ODA0NzkwZTRjYTc5NzU1In0="
         }
     },
     "version": "2.1.0",
@@ -4905,6 +4905,106 @@
                 "type": 2
             },
             "timestamp": 31.5
+        },
+        "75b4c186dc7b5a384e7ee67b1e36f3b0": {
+            "id": "75b4c186dc7b5a384e7ee67b1e36f3b0",
+            "format": "mp4",
+            "state": 1,
+            "type": 3,
+            "name": "2019-11-11-155510.mp4#t=49",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-11-155510.mp4#t=49",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "0d76510ca953576a87c616e3dadb4568",
+                "name": "2019-11-11-155510.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-11-155510.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 2,
+                "type": 2
+            },
+            "timestamp": 49
+        },
+        "541fb435e73eabdd460669c7dfc46694": {
+            "id": "541fb435e73eabdd460669c7dfc46694",
+            "format": "mp4",
+            "state": 1,
+            "type": 3,
+            "name": "2019-11-11-155510.mp4#t=32",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-11-155510.mp4#t=32",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "0d76510ca953576a87c616e3dadb4568",
+                "name": "2019-11-11-155510.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-11-155510.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 32
+        },
+        "dc38d8d52140e4b1c181766a019c53c9": {
+            "id": "dc38d8d52140e4b1c181766a019c53c9",
+            "format": "5",
+            "state": 1,
+            "type": 3,
+            "name": "2019-11-11-155510.mp4#t=32.5",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-11-155510.mp4#t=32.5",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "0d76510ca953576a87c616e3dadb4568",
+                "name": "2019-11-11-155510.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-11-155510.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 32.5
+        },
+        "e2cdb6e510106ccdc0ab23dfc77792d1": {
+            "id": "e2cdb6e510106ccdc0ab23dfc77792d1",
+            "format": "mp4",
+            "state": 1,
+            "type": 3,
+            "name": "2019-11-11-155510.mp4#t=33",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-11-155510.mp4#t=33",
+            "size": {
+                "width": 1600,
+                "height": 896
+            },
+            "parent": {
+                "format": "mp4",
+                "id": "0d76510ca953576a87c616e3dadb4568",
+                "name": "2019-11-11-155510.mp4",
+                "path": "file:/home/mike/Workspace/fasteners/datasets_raw/video_one_class/2019-11-11-155510.mp4",
+                "size": {
+                    "width": 1600,
+                    "height": 896
+                },
+                "state": 1,
+                "type": 2
+            },
+            "timestamp": 33
         }
     }
 }
