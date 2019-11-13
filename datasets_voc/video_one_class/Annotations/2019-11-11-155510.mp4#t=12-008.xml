@@ -17,10 +17,10 @@
         <truncated>0</truncated>
         <difficult>0</difficult>
         <bndbox>
-            <xmin>756.6343994140625</xmin>
-            <ymin>431.7752685546875</ymin>
-            <xmax>897.5904541015625</xmax>
-            <ymax>712.5736694335938</ymax>
+            <xmin>597.7186279296875</xmin>
+            <ymin>142.06507873535156</ymin>
+            <xmax>741.1610717773438</xmax>
+            <ymax>417.64202880859375</ymax>
         </bndbox>
     </object>    <object>
         <name>S002</name>
@@ -28,10 +28,10 @@
         <truncated>0</truncated>
         <difficult>0</difficult>
         <bndbox>
-            <xmin>814.914306640625</xmin>
-            <ymin>279.3418884277344</ymin>
-            <xmax>1054.810546875</xmax>
-            <ymax>621.6484985351562</ymax>
+            <xmin>657.0265502929688</xmin>
+            <ymin>231.29949951171875</ymin>
+            <xmax>901.1544189453125</xmax>
+            <ymax>567.240966796875</ymax>
         </bndbox>
     </object>
 </annotation>

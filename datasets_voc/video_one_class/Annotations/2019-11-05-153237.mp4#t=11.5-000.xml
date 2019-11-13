@@ -17,10 +17,10 @@
         <truncated>0</truncated>
         <difficult>0</difficult>
         <bndbox>
-            <xmin>797.8355712890625</xmin>
-            <ymin>277.318359375</ymin>
-            <xmax>1024.9881591796875</xmax>
-            <ymax>674.6182708740234</ymax>
+            <xmin>534.2781222320637</xmin>
+            <ymin>264.9367088607595</ymin>
+            <xmax>773.7821080602303</xmax>
+            <ymax>681.746835443038</ymax>
         </bndbox>
     </object>
 </annotation>
