@@ -96,7 +96,7 @@ if __name__ == "__main__":
     print("sets", sets)
     print("voc_dir_name", voc_dir_name)
 
-    label_dir = f"voc_dir_name/labels"
+    label_dir = f"{voc_dir_name}/labels"
     if not os.path.exists(label_dir):
         os.makedirs(label_dir)
 
