@@ -10,15 +10,15 @@ import imgaug as ia
 import numpy as np
 from imgaug import augmenters as iaa
 from pascal_voc_writer import Writer
+
 from util import annotation as an
 from util import sequence
 
 dataset_name = "video_one_class"
 aug_size = 10
-
-INPUT_DIR = f"datasets_voc/{dataset_name}"
-TRAIN_DIR = f"{INPUT_DIR}/ImageSets/Main"
-TRAIN_PERCENTAGE = 1
+input_dir = ""
+train_dir = ""
+train_percentage = 0
 
 
 def get_cnt_of_xml_files(xml_files):
@@ -26,12 +26,12 @@ def get_cnt_of_xml_files(xml_files):
 
 
 def get_xml_files():
-    return glob.glob("%s/Annotations/*.xml" % INPUT_DIR)
+    return glob.glob("%s/Annotations/*.xml" % input_dir)
 
 
 def get_cnt_of_train(xml_files):
     cnt_of_files = len(xml_files)
-    cnt_of_train = int(TRAIN_PERCENTAGE * cnt_of_files)
+    cnt_of_train = int(train_percentage * cnt_of_files)
     return cnt_of_train
 
 
@@ -50,7 +50,7 @@ def create_txt(class_name, target_xmls, type_name):
     """
     target_xmls is eigher trainval or test xmls
     """
-    with open(f"{TRAIN_DIR}/{class_name}_{type_name}.txt", "w") as f:
+    with open(f"{train_dir}/{class_name}_{type_name}.txt", "w") as f:
         for xml in target_xmls:
             annotation = an.parse_xml(xml)
             image_id = annotation["filename"]
@@ -71,7 +71,7 @@ def create_txt(class_name, target_xmls, type_name):
 def create_summary_txt():
     for file_type in ["trainval", "test"]:
         file_names = []
-        for file_name in glob.glob(f"{TRAIN_DIR}/*_{file_type}.txt"):
+        for file_name in glob.glob(f"{train_dir}/*_{file_type}.txt"):
             file_names.append(file_name)
 
         image_ids = []
@@ -88,7 +88,7 @@ def create_summary_txt():
             )
             image_ids = image_file_ids
 
-        with open("{}/{}.txt".format(TRAIN_DIR, file_type), "w") as f:
+        with open("{}/{}.txt".format(train_dir, file_type), "w") as f:
             for image_id in image_ids:
                 f.write("%s\n" % image_id)
 
@@ -106,17 +106,17 @@ def create_trainval_and_test(xml_files, cnt_of_train):
 
 def main():
     # augments images and annotation xmls
-    for file in glob.glob("%s/Annotations/*.xml" % INPUT_DIR):
+    for file in glob.glob("%s/Annotations/*.xml" % input_dir):
         print("Augmenting %s ..." % file)
         annotation = an.parse_xml(file)
         augment(annotation)
 
     # check augmented objects about if there is a detected object or not
-    for file in glob.glob("%s/Annotations/*.xml" % INPUT_DIR):
+    for file in glob.glob("%s/Annotations/*.xml" % input_dir):
         an.inspect(file)
 
     # delete all files in ImageSets/Main
-    for dirpath, dirnames, filenames in os.walk(TRAIN_DIR):
+    for dirpath, dirnames, filenames in os.walk(train_dir):
         for filename in filenames:
             os.remove(os.path.join(dirpath, filename))
 
@@ -143,15 +143,15 @@ def augment(annotation):
         new_filename_except_ext = "%s-%03d" % (old_filename_except_ext, i)
         old_filename_ext = sp[1]  # included dot
         new_image_filename = "%s%s" % (new_filename_except_ext, old_filename_ext)
-        new_image_file_path = "%s/JPEGImages/%s" % (INPUT_DIR, new_image_filename)
+        new_image_file_path = "%s/JPEGImages/%s" % (input_dir, new_image_filename)
         new_xml_file_path = "%s/Annotations/%s.xml" % (
-            INPUT_DIR,
+            input_dir,
             new_filename_except_ext,
         )
 
         seq_det = seq.to_deterministic()
 
-        image = cv2.imread("%s/JPEGImages/%s" % (INPUT_DIR, filename))
+        image = cv2.imread("%s/JPEGImages/%s" % (input_dir, filename))
         _bbs = []
         for obj in annotation["objects"]:
             bb = ia.BoundingBox(
@@ -199,5 +199,10 @@ if __name__ == "__main__":
     # update global variable
     dataset_name = args.dsname
     aug_size = args.size
+    input_dir = f"datasets_voc/{dataset_name}"
+    train_dir = f"{input_dir}/ImageSets/Main"
+    train_percentage = 1
+
+    print(globals())
 
     main()
