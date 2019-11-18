@@ -198,7 +198,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--size",
         "-s",
-        help="size of augmentation, 10 means 10 times the raw images",
+        help="size of augmentation, 1 means do not do data augumentation. 2 means 2 times the raw images",
         type=int,
         default=5,
     )
@@ -213,10 +213,12 @@ if __name__ == "__main__":
         raise Exception("dataset name is needed!")
     if args.percentage is None:
         raise Exception("percentage is needed!")
+    if args.size < 0:
+        raise Exception("size must be more than 0!")
 
     # update global variable
     dataset_name = args.dsname
-    aug_size = args.size
+    aug_size = args.size - 1 # 1 means 
     input_dir = f"datasets_voc/{dataset_name}"
     train_dir = f"{input_dir}/ImageSets/Main"
     train_percentage = args.percentage
