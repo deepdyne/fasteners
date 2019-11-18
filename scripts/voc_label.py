@@ -12,8 +12,7 @@ from os.path import join
 
 sets = []
 classes = []
-
-VOC_DIR_NAME = "outputs/5class_fasteners_dataset/3class-PascalVOC-export"
+voc_dir_name = ""
 
 
 def convert(size, box):
@@ -31,8 +30,8 @@ def convert(size, box):
 
 
 def convert_annotation(image_id):
-    in_file = open(VOC_DIR_NAME + "/Annotations/%s.xml" % (image_id))
-    out_file = open(VOC_DIR_NAME + "/labels/%s.txt" % (image_id), "w")
+    in_file = open(voc_dir_name + "/Annotations/%s.xml" % (image_id))
+    out_file = open(voc_dir_name + "/labels/%s.txt" % (image_id), "w")
     tree = ET.parse(in_file)
     root = tree.getroot()
     size = root.find("size")
@@ -60,12 +59,13 @@ def convert_annotation(image_id):
 
 def get_all_images(image_set):
     return (
-        open(VOC_DIR_NAME + "/ImageSets/Main/%s.txt" % image_set).read().strip().split()
+        open(voc_dir_name + "/ImageSets/Main/%s.txt" % image_set).read().strip().split()
     )
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    parser.add_argument("--dsname", "-d", help="dataset name", type=str)
     parser.add_argument(
         "--sets",
         "-s",
@@ -81,12 +81,16 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.classes is None:
-        raise Exception("classes is needed!")
+        raise Exception("classes is need!")
     classes = args.classes.split(",")
 
     if args.sets is None:
-        raise Exception("sets is needed!")
+        raise Exception("sets is need!")
     sets = args.sets.split(",")
+
+    if args.dsname is None:
+        raise Exception("dataset name is need!")
+    voc_dir_name = f"datasets_voc/{args.dsname}"
 
     for image_set in sets:
         image_ids = get_all_images(image_set)
@@ -97,5 +101,5 @@ if __name__ == "__main__":
         # Create full path file
         list_file = open("%s.txt" % (image_set), "w")
         for image_id in image_ids:
-            list_file.write("%s/%s/JPEGImages/%s.jpg\n" % (wd, VOC_DIR_NAME, image_id))
+            list_file.write("%s/%s/JPEGImages/%s.jpg\n" % (wd, voc_dir_name, image_id))
         list_file.close()

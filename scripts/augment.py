@@ -209,16 +209,17 @@ if __name__ == "__main__":
         type=float,
     )
     args = parser.parse_args()
+
     if args.dsname is None:
-        raise Exception("dataset name is needed!")
+        raise Exception("dataset name is need!")
     if args.percentage is None:
-        raise Exception("percentage is needed!")
+        raise Exception("percentage is need!")
     if args.size < 0:
         raise Exception("size must be more than 0!")
 
     # update global variable
     dataset_name = args.dsname
-    aug_size = args.size - 1 # 1 means 
+    aug_size = args.size - 1  # 1 means
     input_dir = f"datasets_voc/{dataset_name}"
     train_dir = f"{input_dir}/ImageSets/Main"
     train_percentage = args.percentage

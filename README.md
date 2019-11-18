@@ -72,7 +72,7 @@ $ python scripts/augment.py --dsname=three_class_trainval --size=5 --percentage=
 # 5. create train.txt and test.txt
 
 ```
-$ python voc_label.py --classes=S001,O001,0002 --sets=trainval,test
+$ python scripts/voc_label.py --dbname=three_class_trainval --classes=S001,O001,O002 --sets=trainval,test
 ```
 
 # REFERENCES:
