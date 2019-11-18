@@ -1,3 +1,4 @@
+import argparse
 import glob
 import os
 import shutil
@@ -9,16 +10,15 @@ import imgaug as ia
 import numpy as np
 from imgaug import augmenters as iaa
 from pascal_voc_writer import Writer
-
 from util import annotation as an
 from util import sequence
 
-VOC_DIR_NAME = "datasets_voc"
-DATASET_NAME = "video_one_class"
-INPUT_DIR = f"{VOC_DIR_NAME}/{DATASET_NAME}"
+dataset_name = "video_one_class"
+aug_size = 10
+
+INPUT_DIR = f"datasets_voc/{dataset_name}"
 TRAIN_DIR = f"{INPUT_DIR}/ImageSets/Main"
-AUGMENT_SIZE = 10
-TRAIN_PERCENTAGE = 0.8
+TRAIN_PERCENTAGE = 1
 
 
 def get_cnt_of_xml_files(xml_files):
@@ -136,7 +136,7 @@ def main():
 def augment(annotation):
     seq = sequence.get()
 
-    for i in range(AUGMENT_SIZE):
+    for i in range(aug_size):
         filename = annotation["filename"]
         sp = os.path.splitext(filename)
         old_filename_except_ext = sp[0]
@@ -187,4 +187,17 @@ def augment(annotation):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--dsname", "-d", help="dataset name", type=str)
+    parser.add_argument(
+        "--size", "-s", help="size of augmentation", type=int, default=5
+    )
+    args = parser.parse_args()
+    if args.dsname is None:
+        raise Exception("dataset name is needed!")
+
+    # update global variable
+    dataset_name = args.dsname
+    aug_size = args.size
+
     main()
