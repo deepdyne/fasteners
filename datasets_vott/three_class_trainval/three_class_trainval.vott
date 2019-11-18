@@ -2,11 +2,11 @@
     "name": "three_class_trainval",
     "securityToken": "my_token",
     "sourceConnection": {
-        "name": "three_class_train_raw",
-        "description": "three_class_train_raw",
+        "name": "three_class_trainval_raw",
+        "description": "three_class_trainval_raw",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZTIzMjUzNTlhMmU4NjdkNzZmOTRmYjM4MzNhOTFhMjIyNTBiYmYxMjM5Yzg3ZmE3YTk2MzYzMTZhYzNlN2Y2YmY0ZGI1M2MzNzk3OWI3ZWVhMDc5NmI5ZDJjYzRlYWE5NmYzZTIyMTkzM2EwODJhZWRiMDE3MzQ5OTdlN2VjMTA0MTA0NmRmM2ZlYTFjOTlkYmU0NTU5Y2UzMjk3OGI1ZTIzMDY5NjgxNTcyN2FlOGIyNTk2MDhkZmEzMmM1MGE0IiwiaXYiOiIyZmZjMWQ5YmNlZjczZjhlNDMxYmNjMTg0ZjE5YWM2NjY5M2M4YjI5NjVkYzlmMDkifQ=="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMjMxMmJhNTEwNTA4ZWU4YzRlMjBkYmYyMzZlNmI3MGI5ZDRkYzczOWUwOTZhODc0MmM3ODRhZDcxMDFmNWM3Nzg2NmQzODQ0YjVmMGI2MjkyNGIxNzcyNWU1NGFhM2RhNDE1MGM4NjlkYjVjNzM1Zjk0ODZkYWRkYjYyMTdmNzUyNWE0YjI1OTk5ZjJhZWRhMzNkZGJlOWViN2Y1ZjM2ZGRkOTAzZDQ4YzRhZGM3NWY1MmE4NzcxYzgwYjgyNTcyIiwiaXYiOiI5YzM4NjVkMWE2NTFiNDQ5ZDM5MzgyMWE1M2EyZmI2MjY4ZDY5ZjUxYWI3NTAxM2MifQ=="
         },
         "id": "BDMPBvWE5"
     },
@@ -15,7 +15,7 @@
         "description": "three_class_trainval_vott",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZjU3OTVhY2I4NGQ3YWNlOTg3MGJjMTgzNjBlYjNkMDQyMmQ0YTliMmE0NTZkY2U5MDk4ZTYwNDBhMjUyMDVhM2Y3ZThkY2UzODk2YTJmNDM1ZGU3NjM4MjVlNDI4MGZjMjJjZWQ5NGRhYTQwZWZjNWUzZGI5MzNhYmYwMTI4NGQ3NzIzOWRjOTUwZjQyOTI2MThlN2QzMDE4ZmI1YjRhZDY0MGZlMDg1M2EwODUyMmEzMjk4NzFmMzM1ZWQ2NTRlIiwiaXYiOiI2YjU1MjdkMTRkODZiNmU2OTM1ODAyMTA0N2NjMWE1YTYxMjMxYWQ2MzllMGU1OGEifQ=="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiN2RiZGIzNTk5ZTFjZWI1Mjg2OGY4NzkyY2Q5NzA3MTI5Yjc2ZDUyYTkxZjg2ZGY0ZWU1ODAyMjNkMDdjMmUzMWViOWM0MTc4MDE0ODNlODc5YzliYWNmMGI0ZjBkYzQ3Mjk1MzY1MWI2ZmJiOGVlNWU1ZjY4YTFiOWE4OTU5NDI0NDNmNWMwZjhiNGY1NTVkMDU5ZGM2ZjQ1Yzk4ZGU2ZjZkZmNiOTI0ZjFjNzRiMGVhNDVkYmRjOGRlYjdmMjk1IiwiaXYiOiI1YzhiZDMzNWE2ZWEwNTgyMzVjZDk4NTliYTNmNjYxOTUxYWQwZTk2NmM0NGVkZWMifQ=="
         },
         "id": "2-PGui8vS"
     },
@@ -45,7 +45,7 @@
     "exportFormat": {
         "providerType": "pascalVOC",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZGEzY2QyYjIyZjM4ZmY5ZmZjYTk0MzNkODczMzVlZjJiZWJkMDBmZDAwZTIxMmY0ZWYyY2ZiNzMwMzllMWM4NDgzYzFlZDI3NGNmNjQ2ZGQ2MDYzMDM2ZmVlMzgyNDhlNjg4YzBhN2RkOGQxNzI1Mjg1ZWY0NWYzZDk3NDhkNzQwMTk5NzQyNjRlYjdiMzYwZGFkMzBjOGM0MjQ3ZDY4ZiIsIml2IjoiYjRmZWU4ODU2NzdhZTVhMjllYjU3ZDNlYmVlOTJhZGQ2MWRiMTllNWIyOTJiNWFkIn0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZGVkM2NlNDEwZWE2MmMyOTc5NWUzNDYxMGY1NGQ5NzdmNjFlZmU1YTk4ODEzZjYyYWU2NWE0ZjRiZjE4MTIwYTA1YTY4YTI1M2FlOTVkZTE3ZDY1YTE2YTRiMGFlYjI5NTU4MDk4MjQyMTBhYTE4NTI5ZWMxMWQ2NjYyOGQ4OWNhODI0YzBhMjQxZjA2NDdlZTEwZTUzMmVlNDU4MThiMiIsIml2IjoiYWYxNmRiMjA0OTI3YWRiOTRmZmZiZGQ0YWRhZmYwOThjZjRkMjAyOWNlNzU4MjNkIn0="
         }
     },
     "version": "2.1.0",
