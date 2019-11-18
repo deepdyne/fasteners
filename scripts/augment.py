@@ -14,7 +14,7 @@ from pascal_voc_writer import Writer
 from util import annotation as an
 from util import sequence
 
-dataset_name = "video_one_class"
+dataset_name = "xxx_dataset"
 aug_size = 10
 input_dir = ""
 train_dir = ""
@@ -190,17 +190,29 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--dsname", "-d", help="dataset name", type=str)
     parser.add_argument(
-        "--size", "-s", help="size of augmentation", type=int, default=5
+        "--size",
+        "-s",
+        help="size of augmentation, 10 means 10 times the raw images",
+        type=int,
+        default=5,
+    )
+    parser.add_argument(
+        "--percentage",
+        "-p",
+        help="train / test percentage, range is 0.0 ~ 1.0",
+        type=float,
     )
     args = parser.parse_args()
     if args.dsname is None:
         raise Exception("dataset name is needed!")
+    if args.percentage is None:
+        raise Exception("percentage is needed!")
 
     # update global variable
     dataset_name = args.dsname
     aug_size = args.size
     input_dir = f"datasets_voc/{dataset_name}"
     train_dir = f"{input_dir}/ImageSets/Main"
-    train_percentage = 1
+    train_percentage = args.percentage
 
     main()
