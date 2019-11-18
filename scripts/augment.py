@@ -128,8 +128,8 @@ def main():
 
     print("____________________________________")
     print("count of xml files", cnt_of_xml_files)
-    print("count of trainval files", trainval_files)
-    print("count of test files", test_files)
+    print("count of trainval files", len(trainval_files))
+    print("count of test files", len(test_files))
 
     class_names = get_all_classes(xml_files)
     for class_name in class_names:
