@@ -69,35 +69,10 @@ $ DSNAME=xxx_dataset; cp -R ./datasets_vott/${DSNAME}/${DSNAME}-PascalVOC-export
 $ python scripts/augment.py --dsname=three_class_trainval --size=5 --percentage=1
 ```
 
-# 4. Auto Annotation and recreate xxx.txt
-
-TODO
-
-# 5. Convert Pascal VOC to YOLO Style
-
-TODO
-
-# CMD
+# 5. create train.txt and test.txt
 
 ```
-$ python increase_img.py # before annotation for data augumentation
-```
-
-conv VoTT to YOLO
-
-- aggregate all image ids to the trainval.txt and test.txt files from indivisual classname_train/val.txt which is created by VoTT.
-
-```
-$ python voc_summary.py 
-```
-
-- create lables files
-- create test.txt from Main/test.txt and 
-- create trainval.txt from Main/trainval.txt
-- the difference between Main/xxx.txt and xxx.txt is that latter has image path and former has image id
-
-```
-$ python voc_label.py
+$ python voc_label.py --classes=S001,O001,0002 --sets=trainval,test
 ```
 
 # REFERENCES:

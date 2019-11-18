@@ -2,14 +2,16 @@
 original: http://pjreddie.com/media/files/voc_label.py
 """
 
+import argparse
 import os
 import pickle
+import sys
 import xml.etree.ElementTree as ET
 from os import getcwd, listdir
 from os.path import join
 
-sets = ["trainval", "test"]
-classes = ["S001", "S002", "S003"]  # , "S004", "S005"]
+sets = []
+classes = []
 
 VOC_DIR_NAME = "outputs/5class_fasteners_dataset/3class-PascalVOC-export"
 
@@ -62,17 +64,38 @@ def get_all_images(image_set):
     )
 
 
-if not os.path.exists(VOC_DIR_NAME + "/labels/"):
-    os.makedirs(VOC_DIR_NAME + "/labels/")
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--sets",
+        "-s",
+        help="comma split of string of filename type. e.g. train,valid,test",
+        type=str,
+    )
+    parser.add_argument(
+        "--classes",
+        "-c",
+        help="comma split string of class name. e.g. S001,S002,S003",
+        type=str,
+    )
+    args = parser.parse_args()
 
-for image_set in sets:
-    image_ids = get_all_images(image_set)
-    for image_id in image_ids:
-        convert_annotation(image_id)
+    if args.classes is None:
+        raise Exception("classes is needed!")
+    classes = args.classes.split(",")
 
-    wd = getcwd()
-    # Create full path file
-    list_file = open("%s.txt" % (image_set), "w")
-    for image_id in image_ids:
-        list_file.write("%s/%s/JPEGImages/%s.jpg\n" % (wd, VOC_DIR_NAME, image_id))
-    list_file.close()
+    if args.sets is None:
+        raise Exception("sets is needed!")
+    sets = args.sets.split(",")
+
+    for image_set in sets:
+        image_ids = get_all_images(image_set)
+        for image_id in image_ids:
+            convert_annotation(image_id)
+
+        wd = getcwd()
+        # Create full path file
+        list_file = open("%s.txt" % (image_set), "w")
+        for image_id in image_ids:
+            list_file.write("%s/%s/JPEGImages/%s.jpg\n" % (wd, VOC_DIR_NAME, image_id))
+        list_file.close()
