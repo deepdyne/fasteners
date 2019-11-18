@@ -1,0 +1,61 @@
+{
+    "asset": {
+        "id": "41f433e9ec0dbaf05910362dd89967c7",
+        "format": "5",
+        "state": 2,
+        "type": 3,
+        "name": "2019-11-18-145339.mp4#t=3.5",
+        "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_trainval/2019-11-18-145339.mp4#t=3.5",
+        "size": {
+            "width": 800,
+            "height": 448
+        },
+        "parent": {
+            "format": "mp4",
+            "id": "c9ffe5ba6272c6304dd240c02ec6b3ab",
+            "name": "2019-11-18-145339.mp4",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_trainval/2019-11-18-145339.mp4",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 1,
+            "type": 2
+        },
+        "timestamp": 3.5
+    },
+    "regions": [
+        {
+            "id": "bQD679PG1",
+            "type": "RECTANGLE",
+            "tags": [
+                "S001"
+            ],
+            "boundingBox": {
+                "height": 120.06400000000001,
+                "width": 158.924570575056,
+                "left": 316.6542195668409,
+                "top": 131.36666666666667
+            },
+            "points": [
+                {
+                    "x": 316.6542195668409,
+                    "y": 131.36666666666667
+                },
+                {
+                    "x": 475.5787901418969,
+                    "y": 131.36666666666667
+                },
+                {
+                    "x": 475.5787901418969,
+                    "y": 251.4306666666667
+                },
+                {
+                    "x": 316.6542195668409,
+                    "y": 251.4306666666667
+                }
+            ]
+        }
+    ],
+    "version": "2.1.0"
+}

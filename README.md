@@ -16,6 +16,14 @@ $ pipenv install
 - NXXX = Nut
 - OXXX = Others
 
+
+# Token
+
+```
+my_token: maRMdjSQEkuaDCcGoqmA/LSt3wotOZFxlLgrDNTlhkQ=
+```
+
+
 # 1. Data preparation
 
 First of all, it's need to make directories by following cmd.
