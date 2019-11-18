@@ -125,6 +125,12 @@ def main():
     cnt_of_xml_files = get_cnt_of_xml_files(xml_files)
     cnt_of_train = get_cnt_of_train(xml_files)
     trainval_files, test_files = create_trainval_and_test(xml_files, cnt_of_train)
+
+    print("____________________________________")
+    print("count of xml files", cnt_of_xml_files)
+    print("count of trainval files", trainval_files)
+    print("count of test files", test_files)
+
     class_names = get_all_classes(xml_files)
     for class_name in class_names:
         create_txt(class_name, trainval_files, "trainval")
