@@ -1,0 +1,48 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>2019-11-18-150349.jpg</filename>
+    <path>three_class_trainval-PascalVOC-export/Annotations/2019-11-18-150349.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>800</width>
+        <height>448</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>O001</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>279.6116504854369</xmin>
+        <ymin>154.66266666666667</ymin>
+        <xmax>440.32860343539954</xmax>
+        <ymax>231.12133333333333</ymax>
+    </bndbox>
+</object><object>
+    <name>S001</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>428.37938760268855</xmin>
+        <ymin>90.748</ymin>
+        <xmax>502.4645257654966</xmax>
+        <ymax>262.1826666666667</ymax>
+    </bndbox>
+</object><object>
+    <name>O002</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>469.6041822255414</xmin>
+        <ymin>116.43333333333334</ymin>
+        <xmax>586.1090365944734</xmax>
+        <ymax>285.4786666666667</ymax>
+    </bndbox>
+</object>
+</annotation>
