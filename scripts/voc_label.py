@@ -92,6 +92,14 @@ if __name__ == "__main__":
         raise Exception("dataset name is need!")
     voc_dir_name = f"datasets_voc/{args.dsname}"
 
+    print("classes", classes)
+    print("sets", sets)
+    print("voc_dir_name", voc_dir_name)
+
+    label_dir = f"voc_dir_name/labels"
+    if not os.path.exists(label_dir):
+        os.makedirs(label_dir)
+
     for image_set in sets:
         image_ids = get_all_images(image_set)
         for image_id in image_ids:
