@@ -14,6 +14,7 @@ $ pipenv install
 - SXXX = Screw
 - BXXX = Bolt
 - NXXX = Nut
+- OXXX = Others
 
 # 1. Data preparation
 
