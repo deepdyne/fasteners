@@ -60,7 +60,7 @@ after annotation is done, export proj as Pascal VOC
 # 3. Copy exported Pascal VOC files to the datasets folder
 
 ```
-$ DSNAME=xxx_dataset cp -R ./datasets_vott/${DSNAME}/${DSNAME}-PascalVOC-export/* ./datasets_voc/${DSNAME}/
+$ DSNAME=xxx_dataset; cp -R ./datasets_vott/${DSNAME}/${DSNAME}-PascalVOC-export/* ./datasets_voc/${DSNAME}/
 ```
 
 # 4. Auto annotation
