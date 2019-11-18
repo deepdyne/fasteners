@@ -1,0 +1,48 @@
+<annotation>
+    <folder>fasteners</folder>
+    <filename>2019-11-18-160230-005.jpg</filename>
+    <path>/home/mike/Workspace/fasteners/2019-11-18-160230-005.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>800</width>
+        <height>448</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>O002</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>438.3994598388672</xmin>
+            <ymin>362.0660705566406</ymin>
+            <xmax>607.1501312255859</xmax>
+            <ymax>447.9999998807907</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>O001</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>523.0750732421875</xmin>
+            <ymin>174.07806396484375</ymin>
+            <xmax>598.14208984375</xmax>
+            <ymax>328.43243408203125</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>S001</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>482.8391418457031</xmin>
+            <ymin>219.12310791015625</ymin>
+            <xmax>568.1152801513672</xmax>
+            <ymax>384.8888854980469</ymax>
+        </bndbox>
+    </object>
+</annotation>
