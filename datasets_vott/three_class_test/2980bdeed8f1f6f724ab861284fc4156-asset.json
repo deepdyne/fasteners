@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "2980bdeed8f1f6f724ab861284fc4156",
+        "name": "2019-11-18-160036.jpg",
+        "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160036.jpg",
+        "size": {
+            "width": 800,
+            "height": 448
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "nNpY7EMNv",
+            "type": "RECTANGLE",
+            "tags": [
+                "O002"
+            ],
+            "boundingBox": {
+                "height": 144.12868632707773,
+                "width": 177.77777777777777,
+                "left": 200,
+                "top": 0.581769436997319
+            },
+            "points": [
+                {
+                    "x": 200,
+                    "y": 0.581769436997319
+                },
+                {
+                    "x": 377.77777777777777,
+                    "y": 0.581769436997319
+                },
+                {
+                    "x": 377.77777777777777,
+                    "y": 144.71045576407505
+                },
+                {
+                    "x": 200,
+                    "y": 144.71045576407505
+                }
+            ]
+        }
+    ],
+    "version": "2.1.0"
+}

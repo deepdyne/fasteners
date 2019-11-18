@@ -1,0 +1,1253 @@
+{
+    "name": "three_class_test",
+    "securityToken": "my_token",
+    "sourceConnection": {
+        "name": "three_class_test_raw",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYmFmM2MyNGE3NmYzMmVjOGRjMmM3MTgzM2EzMDM4M2FjM2ZmM2ViNDRiYjY5ODkzMWI1YTFkN2Y0Mzg5NGMwZWM5OWI1YWEzNWRmM2QxNDkxYWU4ZGZjODA1YmNiNmM4MDk0Y2M1MTEzYTY1NzI0ODY1NGNkYzI4MzYxNDBjZmIxZWI2MTNjYWVjZmNkZjE2MDlmOTM5MzZjYTJmNDc0NCIsIml2IjoiNTI5Mzc0NWE0YjM5ZmFmNWE4NjJkZDhlOTU0M2QzNzJhNzk2M2M0NWM1MTYzY2M1In0="
+        },
+        "id": "Za-TilFDO"
+    },
+    "targetConnection": {
+        "name": "three_class_test_vott",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiM2Y0ZTNjMTM1N2UwYzY4ZDI2ZTNkZGRiNGVlZTIwNjRkYTdmMWU3NTY4M2ZhZWJjNzczMGI5NmZhNTNjNGU4NDg0ODNhY2U5YjRiZjA5YzlhZjg3ODM1Zjc0MWY2MTBjZDhhNDM5ZjdjNDRmZmU0M2VmNTI2MGI5YmY4MjlkNjBiZmE1NTYxYWJmMmQ5ZThlMmY3ZGU1MjZiZmRlOGMwNiIsIml2IjoiYjAwNWY1MmM1NGY5OWY1MzU1OTc2ZGIzYzA2NjQyOGUzNmM1ZmViYTVhMDUxYTUwIn0="
+        },
+        "id": "uSwnCjWEk"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 1
+    },
+    "tags": [
+        {
+            "name": "S001",
+            "color": "#00FF00"
+        },
+        {
+            "name": "O001",
+            "color": "#00FFFF"
+        },
+        {
+            "name": "O002",
+            "color": "#008080"
+        }
+    ],
+    "id": "7UC98z7O4",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "pascalVOC",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZDY0YWQ3Mzc2MDM2MTg3NzQ0M2MzMDhiMGRhNThiZDE1NDQ4MDZhMzg1OGU4YWNkNTAyY2QwNmVjYzFlYzc2ZGMzZjhlNjEwZTI2NTUzNjM5OTZjZmY0NWYwZjFhYTBkNjZiOTUwZDY3OWQyNWNjMDdlZTY1ZWMwYjE0MDNjNjNlODcxZWQ1MTU2NGY4M2I1ZDI0OGNlMWRmN2RhNjgxMyIsIml2IjoiNjc0Njc0NjRiODA2NWVjZDNlMzI4NDFjMzc1OWU1MmYzN2E0Y2ExYzJkYzU3YTg1In0="
+        }
+    },
+    "version": "2.1.0",
+    "lastVisitedAssetId": "c0a7f302f195b504fe480dfc582e318d",
+    "assets": {
+        "68da480c03022ab25ea1bb98b670b534": {
+            "format": "jpg",
+            "id": "68da480c03022ab25ea1bb98b670b534",
+            "name": "2019-11-18-155830.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155830.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7457637113895f2fc1df7cd5bfcb037e": {
+            "format": "jpg",
+            "id": "7457637113895f2fc1df7cd5bfcb037e",
+            "name": "2019-11-18-155834.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155834.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7e3834c4b8d1f29084f3d36c4955107e": {
+            "format": "jpg",
+            "id": "7e3834c4b8d1f29084f3d36c4955107e",
+            "name": "2019-11-18-155836.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155836.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "43bdcecac3bc5d568c766e6c10552adc": {
+            "format": "jpg",
+            "id": "43bdcecac3bc5d568c766e6c10552adc",
+            "name": "2019-11-18-155838.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155838.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f4c9ff268e34d490b3ab1f2c605b31c7": {
+            "format": "jpg",
+            "id": "f4c9ff268e34d490b3ab1f2c605b31c7",
+            "name": "2019-11-18-155841.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155841.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "994f9147d41e2610558b7e123de0126d": {
+            "format": "jpg",
+            "id": "994f9147d41e2610558b7e123de0126d",
+            "name": "2019-11-18-155844.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155844.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2d2bd09b561d1c07ca4c4bdb99eee796": {
+            "format": "jpg",
+            "id": "2d2bd09b561d1c07ca4c4bdb99eee796",
+            "name": "2019-11-18-155846.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155846.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a0a9f9b5d72e64928a01ea8538835f6d": {
+            "format": "jpg",
+            "id": "a0a9f9b5d72e64928a01ea8538835f6d",
+            "name": "2019-11-18-155849.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155849.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "32f85070db8d9c81009c990b63dfe5f9": {
+            "format": "jpg",
+            "id": "32f85070db8d9c81009c990b63dfe5f9",
+            "name": "2019-11-18-155851.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155851.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "44988bd5f17a534fb0e1fd7fa83b9260": {
+            "format": "jpg",
+            "id": "44988bd5f17a534fb0e1fd7fa83b9260",
+            "name": "2019-11-18-155853.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155853.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b1b67604f80999be518db303895f79d6": {
+            "format": "jpg",
+            "id": "b1b67604f80999be518db303895f79d6",
+            "name": "2019-11-18-155858.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155858.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "017f8101c529cdd80cc6a2d333b38747": {
+            "format": "jpg",
+            "id": "017f8101c529cdd80cc6a2d333b38747",
+            "name": "2019-11-18-155901.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155901.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "95f68698130822178a3a74aa8821bda8": {
+            "format": "jpg",
+            "id": "95f68698130822178a3a74aa8821bda8",
+            "name": "2019-11-18-155903.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155903.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "007eed2852f8690514131232ba88ba48": {
+            "format": "jpg",
+            "id": "007eed2852f8690514131232ba88ba48",
+            "name": "2019-11-18-155906.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155906.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "69b118cf35868e9f2e7a48fa0aeb167d": {
+            "format": "jpg",
+            "id": "69b118cf35868e9f2e7a48fa0aeb167d",
+            "name": "2019-11-18-155913.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155913.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "04af73506fa3dce6846de6febc513571": {
+            "format": "jpg",
+            "id": "04af73506fa3dce6846de6febc513571",
+            "name": "2019-11-18-155915.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155915.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7113129adc0a6c8457b2522df265692d": {
+            "format": "jpg",
+            "id": "7113129adc0a6c8457b2522df265692d",
+            "name": "2019-11-18-155919.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155919.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a8e68291549f6244d9a69f11dfb6a24e": {
+            "format": "jpg",
+            "id": "a8e68291549f6244d9a69f11dfb6a24e",
+            "name": "2019-11-18-155921.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155921.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "db9f9495642a95de8056f284fed94522": {
+            "format": "jpg",
+            "id": "db9f9495642a95de8056f284fed94522",
+            "name": "2019-11-18-155923.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155923.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e42d84e74c3d99a50eb53aa69458f026": {
+            "format": "jpg",
+            "id": "e42d84e74c3d99a50eb53aa69458f026",
+            "name": "2019-11-18-155925.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155925.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "928f594b80dfd3f99703df004b9b92fa": {
+            "format": "jpg",
+            "id": "928f594b80dfd3f99703df004b9b92fa",
+            "name": "2019-11-18-155927.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155927.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0c261ab4158b5ac2d6f77f52abb36239": {
+            "format": "jpg",
+            "id": "0c261ab4158b5ac2d6f77f52abb36239",
+            "name": "2019-11-18-155949.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155949.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0dcb47ce98b06002bcab022c579fa5a5": {
+            "format": "jpg",
+            "id": "0dcb47ce98b06002bcab022c579fa5a5",
+            "name": "2019-11-18-155952.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155952.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "48b70d6838e60fb913987a0cc0ff0a1c": {
+            "format": "jpg",
+            "id": "48b70d6838e60fb913987a0cc0ff0a1c",
+            "name": "2019-11-18-155957.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155957.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d4bc4ab702f3dc533524df61abc59353": {
+            "format": "jpg",
+            "id": "d4bc4ab702f3dc533524df61abc59353",
+            "name": "2019-11-18-155958.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-155958.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1b504da366e655e229a1e044a4e5452c": {
+            "format": "jpg",
+            "id": "1b504da366e655e229a1e044a4e5452c",
+            "name": "2019-11-18-160000.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160000.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0b5eaacdf4d2c43d7e0b72814872246f": {
+            "format": "jpg",
+            "id": "0b5eaacdf4d2c43d7e0b72814872246f",
+            "name": "2019-11-18-160002.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160002.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3d439ff6b9d7332126d6013941415780": {
+            "format": "jpg",
+            "id": "3d439ff6b9d7332126d6013941415780",
+            "name": "2019-11-18-160022.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160022.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "23e18fc090ffa22ff993dd0a37052501": {
+            "format": "jpg",
+            "id": "23e18fc090ffa22ff993dd0a37052501",
+            "name": "2019-11-18-160025.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160025.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5781326d6a7ef7d885aed035cdbaa44f": {
+            "format": "jpg",
+            "id": "5781326d6a7ef7d885aed035cdbaa44f",
+            "name": "2019-11-18-160027.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160027.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f36f128ae5fc60b844f10450e3542747": {
+            "format": "jpg",
+            "id": "f36f128ae5fc60b844f10450e3542747",
+            "name": "2019-11-18-160030.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160030.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2d0dc053b1cb4d6d60bda1f9609a6cad": {
+            "format": "jpg",
+            "id": "2d0dc053b1cb4d6d60bda1f9609a6cad",
+            "name": "2019-11-18-160032.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160032.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2980bdeed8f1f6f724ab861284fc4156": {
+            "format": "jpg",
+            "id": "2980bdeed8f1f6f724ab861284fc4156",
+            "name": "2019-11-18-160036.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160036.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8f3c6b88b2944766995e7e1d10799b12": {
+            "format": "jpg",
+            "id": "8f3c6b88b2944766995e7e1d10799b12",
+            "name": "2019-11-18-160038.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160038.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0a765219fb679650f03a1e9f63ad7d1e": {
+            "format": "jpg",
+            "id": "0a765219fb679650f03a1e9f63ad7d1e",
+            "name": "2019-11-18-160040.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160040.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9d44f0c9ea3ad9fa6e0a79d767026c0f": {
+            "format": "jpg",
+            "id": "9d44f0c9ea3ad9fa6e0a79d767026c0f",
+            "name": "2019-11-18-160042.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160042.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cbff36151c4a2cdc24a69bc7259bbfc8": {
+            "format": "jpg",
+            "id": "cbff36151c4a2cdc24a69bc7259bbfc8",
+            "name": "2019-11-18-160043.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160043.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b2b99d57e87d1833a2ba87897b579502": {
+            "format": "jpg",
+            "id": "b2b99d57e87d1833a2ba87897b579502",
+            "name": "2019-11-18-160044.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160044.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ee47d38de92c281871864fe7dd1c8a42": {
+            "format": "jpg",
+            "id": "ee47d38de92c281871864fe7dd1c8a42",
+            "name": "2019-11-18-160048.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160048.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e366eee32763519b2e6faaa036e6969b": {
+            "format": "jpg",
+            "id": "e366eee32763519b2e6faaa036e6969b",
+            "name": "2019-11-18-160050.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160050.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "eced9bd80f2100328b4eb191abbf2608": {
+            "format": "jpg",
+            "id": "eced9bd80f2100328b4eb191abbf2608",
+            "name": "2019-11-18-160052.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160052.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "05b49b79f3bbcee458b570a45848dfe7": {
+            "format": "jpg",
+            "id": "05b49b79f3bbcee458b570a45848dfe7",
+            "name": "2019-11-18-160105.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160105.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "65248c01d75028b00adfac8700a39441": {
+            "format": "jpg",
+            "id": "65248c01d75028b00adfac8700a39441",
+            "name": "2019-11-18-160106.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160106.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8e4820fdac7d8a3438441bbaa0676e63": {
+            "format": "jpg",
+            "id": "8e4820fdac7d8a3438441bbaa0676e63",
+            "name": "2019-11-18-160108.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160108.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cecd69c1ff140756afc50e88a5ed8cd8": {
+            "format": "jpg",
+            "id": "cecd69c1ff140756afc50e88a5ed8cd8",
+            "name": "2019-11-18-160111.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160111.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f2299db44f54c2dfb947ea56bc4b9c5b": {
+            "format": "jpg",
+            "id": "f2299db44f54c2dfb947ea56bc4b9c5b",
+            "name": "2019-11-18-160112.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160112.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "72bfde23a0807a2202ea8da50692cac8": {
+            "format": "jpg",
+            "id": "72bfde23a0807a2202ea8da50692cac8",
+            "name": "2019-11-18-160114.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160114.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3b99c8dfb2dbbd18bc5c36b9f8c121fb": {
+            "format": "jpg",
+            "id": "3b99c8dfb2dbbd18bc5c36b9f8c121fb",
+            "name": "2019-11-18-160116.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160116.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "58875efae4ba2d5d690884bdd63f8ff1": {
+            "format": "jpg",
+            "id": "58875efae4ba2d5d690884bdd63f8ff1",
+            "name": "2019-11-18-160117.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160117.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1cded1af5142c61efa96f4d3a714fa57": {
+            "format": "jpg",
+            "id": "1cded1af5142c61efa96f4d3a714fa57",
+            "name": "2019-11-18-160120.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160120.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4e280ab1423abc7728fd8992baac903d": {
+            "format": "jpg",
+            "id": "4e280ab1423abc7728fd8992baac903d",
+            "name": "2019-11-18-160123.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160123.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0259388b72af10ba08f881fa87042403": {
+            "format": "jpg",
+            "id": "0259388b72af10ba08f881fa87042403",
+            "name": "2019-11-18-160124.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160124.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9e5b58c7b65faaf0b12ac388abc233b2": {
+            "format": "jpg",
+            "id": "9e5b58c7b65faaf0b12ac388abc233b2",
+            "name": "2019-11-18-160126.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160126.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f4398f1c0f778d9140a74099fce97472": {
+            "format": "jpg",
+            "id": "f4398f1c0f778d9140a74099fce97472",
+            "name": "2019-11-18-160128.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160128.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0a91d4500efcc24d51134147cd01490d": {
+            "format": "jpg",
+            "id": "0a91d4500efcc24d51134147cd01490d",
+            "name": "2019-11-18-160132.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160132.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "39738e091e18a183f1815cf26a12b20a": {
+            "format": "jpg",
+            "id": "39738e091e18a183f1815cf26a12b20a",
+            "name": "2019-11-18-160133.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160133.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "05cae777d10c05635b43328d85299803": {
+            "format": "jpg",
+            "id": "05cae777d10c05635b43328d85299803",
+            "name": "2019-11-18-160135.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160135.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "551ec09537a6240a6c62b39a7fb4c7e4": {
+            "format": "jpg",
+            "id": "551ec09537a6240a6c62b39a7fb4c7e4",
+            "name": "2019-11-18-160136.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160136.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bd64b91f003f0797fa0ee85ddac6effc": {
+            "format": "jpg",
+            "id": "bd64b91f003f0797fa0ee85ddac6effc",
+            "name": "2019-11-18-160138.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160138.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4c9c9971bb25d48cdbacf1ff193710cf": {
+            "format": "jpg",
+            "id": "4c9c9971bb25d48cdbacf1ff193710cf",
+            "name": "2019-11-18-160141.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160141.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c60af4a9387e5a9a07988f445024d3e9": {
+            "format": "jpg",
+            "id": "c60af4a9387e5a9a07988f445024d3e9",
+            "name": "2019-11-18-160209.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160209.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "124179ce9cf4210c43638c86b0850c22": {
+            "format": "jpg",
+            "id": "124179ce9cf4210c43638c86b0850c22",
+            "name": "2019-11-18-160216.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160216.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b24aa6fd50f2d8f1ce7399591015ad5b": {
+            "format": "jpg",
+            "id": "b24aa6fd50f2d8f1ce7399591015ad5b",
+            "name": "2019-11-18-160220.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160220.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6f206dbd2bf4861ef74b875ccdf5ea73": {
+            "format": "jpg",
+            "id": "6f206dbd2bf4861ef74b875ccdf5ea73",
+            "name": "2019-11-18-160224.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160224.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "571b8f69158400568bb72ae2b87e43d5": {
+            "format": "jpg",
+            "id": "571b8f69158400568bb72ae2b87e43d5",
+            "name": "2019-11-18-160230.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160230.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dd398b9674e466d9a55a190f6e68cdfe": {
+            "format": "jpg",
+            "id": "dd398b9674e466d9a55a190f6e68cdfe",
+            "name": "2019-11-18-160232.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160232.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bad638913a4712ea4312d5301daefcae": {
+            "format": "jpg",
+            "id": "bad638913a4712ea4312d5301daefcae",
+            "name": "2019-11-18-160235.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160235.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c0a7f302f195b504fe480dfc582e318d": {
+            "format": "jpg",
+            "id": "c0a7f302f195b504fe480dfc582e318d",
+            "name": "2019-11-18-160237.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160237.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3ba33b59b03923d73e8b15dc00b80b56": {
+            "format": "jpg",
+            "id": "3ba33b59b03923d73e8b15dc00b80b56",
+            "name": "2019-11-18-160249.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160249.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "358224f1ad8bfdebd8195df0cbf2318d": {
+            "format": "jpg",
+            "id": "358224f1ad8bfdebd8195df0cbf2318d",
+            "name": "2019-11-18-160254.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160254.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a9ec48e8ba1ced24bfef130fe732930b": {
+            "format": "jpg",
+            "id": "a9ec48e8ba1ced24bfef130fe732930b",
+            "name": "2019-11-18-160301.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160301.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e67853371a07ab242d133af7af103248": {
+            "format": "jpg",
+            "id": "e67853371a07ab242d133af7af103248",
+            "name": "2019-11-18-160310.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160310.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f7941ed614f67a6159f48eced41b3dbb": {
+            "format": "jpg",
+            "id": "f7941ed614f67a6159f48eced41b3dbb",
+            "name": "2019-11-18-160318.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160318.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a44d276256471633a814370b6f50aa9f": {
+            "format": "jpg",
+            "id": "a44d276256471633a814370b6f50aa9f",
+            "name": "2019-11-18-160324.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160324.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fd7d6c1dd4e061ee80d641085733b5a3": {
+            "format": "jpg",
+            "id": "fd7d6c1dd4e061ee80d641085733b5a3",
+            "name": "2019-11-18-160326.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160326.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8c22164532ed609d29c74fa9c1cf8b54": {
+            "format": "jpg",
+            "id": "8c22164532ed609d29c74fa9c1cf8b54",
+            "name": "2019-11-18-160328.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160328.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "832fdb69cee612ce1c122add4f834e79": {
+            "format": "jpg",
+            "id": "832fdb69cee612ce1c122add4f834e79",
+            "name": "2019-11-18-160348.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160348.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1cf9fec40da8988fcc9576eab13f064e": {
+            "format": "jpg",
+            "id": "1cf9fec40da8988fcc9576eab13f064e",
+            "name": "2019-11-18-160355.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160355.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b48e13dcecc8b322bafdc0ed83e1c621": {
+            "format": "jpg",
+            "id": "b48e13dcecc8b322bafdc0ed83e1c621",
+            "name": "2019-11-18-160359.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160359.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a42fcc0603e4b0f6ae6f458b448926c3": {
+            "format": "jpg",
+            "id": "a42fcc0603e4b0f6ae6f458b448926c3",
+            "name": "2019-11-18-160404.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160404.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b22fee1fce388725675b7bab29a7a408": {
+            "format": "jpg",
+            "id": "b22fee1fce388725675b7bab29a7a408",
+            "name": "2019-11-18-160408.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160408.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "07a3a12585abdde9fc0347a1f93b3f6f": {
+            "format": "jpg",
+            "id": "07a3a12585abdde9fc0347a1f93b3f6f",
+            "name": "2019-11-18-160412.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160412.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1814a912a3045e06470b1524ed8adae1": {
+            "format": "jpg",
+            "id": "1814a912a3045e06470b1524ed8adae1",
+            "name": "2019-11-18-160416.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160416.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4676d72a4b34ecc65552e039b07e868f": {
+            "format": "jpg",
+            "id": "4676d72a4b34ecc65552e039b07e868f",
+            "name": "2019-11-18-160421.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160421.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "60cab2de17c6107f000d536525a24a54": {
+            "format": "jpg",
+            "id": "60cab2de17c6107f000d536525a24a54",
+            "name": "2019-11-18-160423.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160423.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fe1e19f6b59ffb3813f6589c216696e4": {
+            "format": "jpg",
+            "id": "fe1e19f6b59ffb3813f6589c216696e4",
+            "name": "2019-11-18-160430.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160430.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "05bd450d804f0f160f7d0d5d0414ad26": {
+            "format": "jpg",
+            "id": "05bd450d804f0f160f7d0d5d0414ad26",
+            "name": "2019-11-18-160434.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160434.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c4507465ff6ad79fc3a5f199be020442": {
+            "format": "jpg",
+            "id": "c4507465ff6ad79fc3a5f199be020442",
+            "name": "2019-11-18-160440.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160440.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "22ade31b649fce8509bf2d5c08c6cb78": {
+            "format": "jpg",
+            "id": "22ade31b649fce8509bf2d5c08c6cb78",
+            "name": "2019-11-18-160446.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160446.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "68f0f81140e8cda8267e88cea9688828": {
+            "format": "jpg",
+            "id": "68f0f81140e8cda8267e88cea9688828",
+            "name": "2019-11-18-160448.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160448.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a2790f72b344be8f03eb4d30bddcb0b2": {
+            "format": "jpg",
+            "id": "a2790f72b344be8f03eb4d30bddcb0b2",
+            "name": "2019-11-18-160452.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160452.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b1111fb1fe2413bea2eb26a5586e0d2f": {
+            "format": "jpg",
+            "id": "b1111fb1fe2413bea2eb26a5586e0d2f",
+            "name": "2019-11-18-160455.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160455.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1c893f946fa7a7912a7ceff87c923b4e": {
+            "format": "jpg",
+            "id": "1c893f946fa7a7912a7ceff87c923b4e",
+            "name": "2019-11-18-160503.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160503.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e838ac6b632d48144876254096ad6c8b": {
+            "format": "jpg",
+            "id": "e838ac6b632d48144876254096ad6c8b",
+            "name": "2019-11-18-160510.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160510.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "64f5214893ba809ed6376f0745400c98": {
+            "format": "jpg",
+            "id": "64f5214893ba809ed6376f0745400c98",
+            "name": "2019-11-18-160525.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160525.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c9b546562e264c8267c17cc913e6339e": {
+            "format": "jpg",
+            "id": "c9b546562e264c8267c17cc913e6339e",
+            "name": "2019-11-18-160539.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160539.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cc0f0385e95701fd804f0dbee658684c": {
+            "format": "jpg",
+            "id": "cc0f0385e95701fd804f0dbee658684c",
+            "name": "2019-11-18-160545.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160545.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "91f97354a2cf3f77fdb30c196b538977": {
+            "format": "jpg",
+            "id": "91f97354a2cf3f77fdb30c196b538977",
+            "name": "2019-11-18-160552.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160552.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c18d347b4d03047f490259f2ec90101e": {
+            "format": "jpg",
+            "id": "c18d347b4d03047f490259f2ec90101e",
+            "name": "2019-11-18-160716.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160716.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d4571bc4b2849cc2a5ac73df6e182873": {
+            "format": "jpg",
+            "id": "d4571bc4b2849cc2a5ac73df6e182873",
+            "name": "2019-11-18-160722.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test/2019-11-18-160722.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}
