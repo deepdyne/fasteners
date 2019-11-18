@@ -203,6 +203,4 @@ if __name__ == "__main__":
     train_dir = f"{input_dir}/ImageSets/Main"
     train_percentage = 1
 
-    print(globals())
-
     main()
