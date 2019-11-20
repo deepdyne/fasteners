@@ -5,7 +5,7 @@
         "name": "three_class_test_hand_raw",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNjliYzE5YWIxMjViMjhkZjU4ZDY5N2M1Nzk0ZGE4YWNmNTVmODhmZjFhZDI4OWJjYWEyZGU3MGFhZTFlYjZhNTlkMjVjZjczMWMzNWZlMDQxMWJiNTIyNzIxNjQxMzMzN2I3MjhiMDAzNDcyMTUzY2Y4NmY0NDdmODNkMTYzOTAyYTc2MDkxNDliZGEyOTNjMjVlYWRkZTNhNDNiMzJmMDE4ZTg0OTkxZTMyMzUxMjA2ZGYzNjliNmRhMGIxMjUyIiwiaXYiOiI2ZjhiYjBhYTRjYTg3NTg3NGI0ZGQ0Njg5MjllMDExZmFlMTZlMTgwOTUxYzk2M2IifQ=="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiOWZkZTRmZGE2YmZlY2Y4YzUzYzk0OGJlOTUxNTU1YzU1OTU3OTYyODFlMjc3NWQzZGY5OTU3ZDQyMWZjZDljNTllN2NkNjcyZDI5MzdiMTNlNDEyMjVmMzdiNjJlMjA4MGMxOTQ1ZThmOTI2NjY1OWM2ODYyMTQzZTIyYjYzYWU1MzUwNWUyMDY2MDUxYzNhMmJiM2IyNTM2ZjdkNGI2ZDllMzlhZmYyNjRkY2JmYmQ3ZmJiMDE3Y2Q0Y2NjMDhmIiwiaXYiOiJhZjQ4NjBiMTJjOTlkNWE0OTM5ZWE1MDM5YmY4M2JiMjU2YjAyYTQ3YjY1NGQ5MWQifQ=="
         },
         "id": "uB6Cwe6al"
     },
@@ -13,7 +13,7 @@
         "name": "three_class_test_hand_vott",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiOTQyNWIxZTczNzhjNzdlOTMzYTNiYjdhN2EwNzAwMTgxYWJhMjZlZTA3Yjg4M2FmOGI3OGIyMjZjZjYzMjA1Y2M1ZDE1YTY5NGVjY2QwNWE3OTBlZGQxYzcyMTk3ZTU4OWNjMzJkNmUzMDllMGFhMjA2YmU2ZTZkNjg2NTE2MWVjYmE5YjZhMjA5OWMzM2FlMDI3ZTZmYWU5NzNiOGRjOGI5ZDBhZWY5MTY4YjQ4MGY4MmQ3MzA1NDg0MzJkNDVhIiwiaXYiOiJjNGFmNTVjNDQwN2Y3NzQzOWY0ZTg4Njk2ODZiZmJjZGE4MTM5YzAxYmJiYzFjZDUifQ=="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNTRmNjM4NTVjY2RiZjJjZTNmMGViNGFmYjRiNzUzNzdlZTVlNTdmNzA4NjViNTRjZmQxMDNjMjAyOWZlOTE1MWY2NjE2MGJkYTE1N2VlOGNmYjA3ZWM1Y2M3MTQ0YTBlNzg1MWFmYjczMjc0MjRmYjc1OTNiMjZkYWRiMzQ1NzViMDdjM2Q4MDE4ODU0ZjNhOWYxNjhmNDU5OTNjNjhjNzRhODAxNWE4YzJlMDAwYWVlODg5MjJlMTg3MGQ3Y2U3IiwiaXYiOiI5MWRlMzZlYzYwNGIwOTI2NWM3ZTNjZmM1Y2JlYzhmODZlZjBjNzY5M2ZhYWMyYTAifQ=="
         },
         "id": "y1QTKEP2j"
     },
@@ -43,7 +43,7 @@
     "exportFormat": {
         "providerType": "pascalVOC",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYThjYmViZWM0Njk3NDNkZjY0MWUyODdkMWU3NTQxYmQ3MDdlNTFhNWY5MjYzNDk0MTBlZGQwYzU5Y2Y5M2I1NGFhNjlkZDQwZjFlNjMyZDNjZTdiNWU4ZTE1ZTBjMGIwZDc4YTgyNTQ4ZTAzYzg0OWJiMTBiZjliOTg5ODllZDA4YzNhZDFkODFhZGE0ODdlY2Q2YjljNmVhNDkzY2I3YiIsIml2IjoiNWExMmQyYWI0M2E3ZTkxNTRlYmUwYWFhMzA1MDA3MmI2MzA5ODdlY2NjYTQ5ZDQ1In0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYWEwNjBkMDZkNThhZjQyYTQyZDY2YWIwOGU2OTBjZTE3NDNmNTM3NzU4YjYxNWY2MjY2MWNkYWNjYTlmZDA2NDM0ZTQwZDVhMjBjYjAyNGZmMTE0ZmJhODgzNGEzOWVkNDFjMjNlYmYxODRkODg4MWY2MDBiNWM3MjY3NTYwZmRiYTA2NWYwODY0NjA2ZDU0NGNjZWNmZTliYzg2NDRmNCIsIml2IjoiYjJjODUwNWI0YTNiYzU0ZWJmODVhMzRhNTVjNzczZjNhYTU4Y2NkM2IyN2JhOTc4In0="
         }
     },
     "version": "2.1.0",
@@ -706,8 +706,9 @@
                 "width": 800,
                 "height": 448
             },
-            "state": 2,
-            "type": 1
+            "state": 1,
+            "type": 1,
+            "predicted": true
         },
         "82609f37b114b6e2b956216298649e44": {
             "format": "jpg",
@@ -719,7 +720,8 @@
                 "height": 448
             },
             "state": 2,
-            "type": 1
+            "type": 1,
+            "predicted": true
         },
         "8c89b803f0dae85b85d828c7164e4169": {
             "format": "jpg",

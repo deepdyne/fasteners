@@ -9,7 +9,8 @@
             "height": 448
         },
         "state": 2,
-        "type": 1
+        "type": 1,
+        "predicted": true
     },
     "regions": [
         {

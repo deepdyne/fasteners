@@ -39,4 +39,8 @@ def inspect(filename):
     annotation = parse_xml(filename)
     if len(annotation["objects"]) == 0:
         print(f"filename={filename}, data={annotation}")
-        raise Exception("There is a file that does not contain any objects!")
+        messages = [
+                "There is a file that does not contain any objects!",
+                "Please remove original file from source",
+                ]
+        raise Exception(messages.join("\n"))
