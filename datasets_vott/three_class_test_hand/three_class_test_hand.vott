@@ -1,0 +1,1253 @@
+{
+    "name": "three_class_test_hand",
+    "securityToken": "my_token",
+    "sourceConnection": {
+        "name": "three_class_test_hand_raw",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNzNmZmU1YjBiMGFiMzFhMjg3NWFmY2VkYzdlNTYzN2ExNWQ5ODFhY2Q5OGM0ZmMwMmRkMTQ4YTUwMzUwYzlmOGM0NjIyZmJjNzhjZWVlMTQ5MTg1M2I1ZTc3ZDMzODYxYWNlYTVmMDA4ZGNjNzk0YzI1MzAxMTJmMzA4YjE5MGYyZDkxMzdjZDhlYWE4YTZmZDFiMDk2MmI5ZDAyNjk1N2UzNTM0YjdjMmNkODZiM2FjZTVkZTNkMTBlYTEwYzVhIiwiaXYiOiI5ZDk5MTM4ODQ1MjU0MzNlYjllZjUyMjhiMTY3MDUyMTRlMDIyZTA0NmY0ZTAxMDMifQ=="
+        },
+        "id": "uB6Cwe6al"
+    },
+    "targetConnection": {
+        "name": "three_class_test_hand_vott",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZWZmNDBlNDJhMmJhMDEyMGQyOGQzOTFkYmIwZjY4NjJmNjg2OThmMjU2ZWFiZDJmYjU0NzllYTAzMzk4ZjFiNmZlMTMxMTY2ZTdkN2M4MGI1NjU1ZWQwNDUwYTVkYTY2ODI5N2JiNzUwMGU0OTMwNDZiOTQxZTYzMWI3ZTMyNjNhNGFlYWIzNjZmMzgxOThlNWExY2YzMDJlN2M2NTk5OWE1ZTZhM2RjYjFhM2U1MDQyODBlZjZiMWE2OTlhMzJkIiwiaXYiOiIyYjcwMDUyYzlhOTMzZGE3YmIwODAwNTBhNWFmZGU5MWMzNmQyZTY4YzVkOTEzODYifQ=="
+        },
+        "id": "y1QTKEP2j"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 1
+    },
+    "tags": [
+        {
+            "name": "S001",
+            "color": "#FF00FF"
+        },
+        {
+            "name": "O001",
+            "color": "#0000FF"
+        },
+        {
+            "name": "O002",
+            "color": "#FF0000"
+        }
+    ],
+    "id": "tuKKthKhF",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "pascalVOC",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNzQxZWVkODRiZDM4ZTIxMmU5NjhlZjNiNTEyNDAxZWEyZTBkMTc4ODM3ZGNjMjExZmNiOGNmNGM3ZTI1MWU0YTg4MmNkMTE0MjdiYzcyM2VmNGQzOGM0OTAwY2Y3ODJmZDMyOThiNjEzNzI3YzQ2MWJmYzhlMTZkYzkyMjMyMDM2NGQ3YzExZTNmNGJjOGI1N2RmOTIyMjM1MzczYjg4MiIsIml2IjoiNGFlMWQ1MTI5ZTdjOWJiMGMyNWEzYmUzNWFlZjc3NzlhZjg1YmNlNDcxMWNjNmZjIn0="
+        }
+    },
+    "version": "2.1.0",
+    "lastVisitedAssetId": "62c8e456c4c50a7942d6e9fa64f642cc",
+    "assets": {
+        "62c8e456c4c50a7942d6e9fa64f642cc": {
+            "format": "jpg",
+            "id": "62c8e456c4c50a7942d6e9fa64f642cc",
+            "name": "2019-11-20-165700.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165700.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "867eb1c4cbebf88e6394ec63588cf5ee": {
+            "format": "jpg",
+            "id": "867eb1c4cbebf88e6394ec63588cf5ee",
+            "name": "2019-11-20-165442.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165442.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "424bb6c58d342acd99631c97a5ecb3c6": {
+            "format": "jpg",
+            "id": "424bb6c58d342acd99631c97a5ecb3c6",
+            "name": "2019-11-20-165453.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165453.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d9f0dfc418d6af9ab1280faae4e9e702": {
+            "format": "jpg",
+            "id": "d9f0dfc418d6af9ab1280faae4e9e702",
+            "name": "2019-11-20-165459.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165459.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "df6809b2ceff86547a879f8f6e90d016": {
+            "format": "jpg",
+            "id": "df6809b2ceff86547a879f8f6e90d016",
+            "name": "2019-11-20-165505.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165505.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "38150ea5bcf5958176dcdb8953b0f369": {
+            "format": "jpg",
+            "id": "38150ea5bcf5958176dcdb8953b0f369",
+            "name": "2019-11-20-165508.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165508.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c9eb166b08ff139ee16abb84a78e531d": {
+            "format": "jpg",
+            "id": "c9eb166b08ff139ee16abb84a78e531d",
+            "name": "2019-11-20-165511.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165511.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0313109fe19616b75ed4e4570453a1d8": {
+            "format": "jpg",
+            "id": "0313109fe19616b75ed4e4570453a1d8",
+            "name": "2019-11-20-165515.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165515.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "046e5c29747d7b3cf1b5d3c26d49c60b": {
+            "format": "jpg",
+            "id": "046e5c29747d7b3cf1b5d3c26d49c60b",
+            "name": "2019-11-20-165519.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165519.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f99713261c88ebf6dc059b021a8d7fa5": {
+            "format": "jpg",
+            "id": "f99713261c88ebf6dc059b021a8d7fa5",
+            "name": "2019-11-20-165525.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165525.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0a16a99f70cb2051fa8c064f90eca3a9": {
+            "format": "jpg",
+            "id": "0a16a99f70cb2051fa8c064f90eca3a9",
+            "name": "2019-11-20-165528.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165528.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fcd382b5b44218121ab5c24aeece9143": {
+            "format": "jpg",
+            "id": "fcd382b5b44218121ab5c24aeece9143",
+            "name": "2019-11-20-165535.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165535.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e7046e02f9296aac740565d5769a924f": {
+            "format": "jpg",
+            "id": "e7046e02f9296aac740565d5769a924f",
+            "name": "2019-11-20-165539.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165539.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a93b402565e8a36ca0efc15964b42d09": {
+            "format": "jpg",
+            "id": "a93b402565e8a36ca0efc15964b42d09",
+            "name": "2019-11-20-165543.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165543.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2dd3b6241de2005ce01a46467acd0663": {
+            "format": "jpg",
+            "id": "2dd3b6241de2005ce01a46467acd0663",
+            "name": "2019-11-20-165548.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165548.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d04e798f9bdbbe331a9bb63b9d008526": {
+            "format": "jpg",
+            "id": "d04e798f9bdbbe331a9bb63b9d008526",
+            "name": "2019-11-20-165558.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165558.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c2081216af3796654e4e0f1df14351cf": {
+            "format": "jpg",
+            "id": "c2081216af3796654e4e0f1df14351cf",
+            "name": "2019-11-20-165611.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165611.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e45ebce5cca563b6d3eeb93c722580b7": {
+            "format": "jpg",
+            "id": "e45ebce5cca563b6d3eeb93c722580b7",
+            "name": "2019-11-20-165618.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165618.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4c0865efd2145edffdb78aa4ad9cdea1": {
+            "format": "jpg",
+            "id": "4c0865efd2145edffdb78aa4ad9cdea1",
+            "name": "2019-11-20-165621.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165621.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "df732d531b3b2b6733d9a317dbf0f346": {
+            "format": "jpg",
+            "id": "df732d531b3b2b6733d9a317dbf0f346",
+            "name": "2019-11-20-165629.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165629.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c5a2464d40e51a5511195f43e258a124": {
+            "format": "jpg",
+            "id": "c5a2464d40e51a5511195f43e258a124",
+            "name": "2019-11-20-165634.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165634.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "61b92afadbbcb233b0b5bf2c99fe1d7d": {
+            "format": "jpg",
+            "id": "61b92afadbbcb233b0b5bf2c99fe1d7d",
+            "name": "2019-11-20-165704.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165704.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2879506c440b2f1ee64d5ff4d6bee486": {
+            "format": "jpg",
+            "id": "2879506c440b2f1ee64d5ff4d6bee486",
+            "name": "2019-11-20-165706.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165706.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1697fd77b557be6a70c4e70ffcbefe45": {
+            "format": "jpg",
+            "id": "1697fd77b557be6a70c4e70ffcbefe45",
+            "name": "2019-11-20-165709.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165709.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "36f50c1fd2ea9db11fa4892f0b344a4d": {
+            "format": "jpg",
+            "id": "36f50c1fd2ea9db11fa4892f0b344a4d",
+            "name": "2019-11-20-165712.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165712.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "686dd5b5f812dc44e5bd72bcd5e1e393": {
+            "format": "jpg",
+            "id": "686dd5b5f812dc44e5bd72bcd5e1e393",
+            "name": "2019-11-20-165716.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165716.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "01b93f0ffe8276475dc0fcc8b372903e": {
+            "format": "jpg",
+            "id": "01b93f0ffe8276475dc0fcc8b372903e",
+            "name": "2019-11-20-165721.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165721.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fc859bf5f83d4eacfe158b713c99e0f7": {
+            "format": "jpg",
+            "id": "fc859bf5f83d4eacfe158b713c99e0f7",
+            "name": "2019-11-20-165726.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165726.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "95632f6cb220c7d595dd7b1e20ff1f45": {
+            "format": "jpg",
+            "id": "95632f6cb220c7d595dd7b1e20ff1f45",
+            "name": "2019-11-20-165732.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165732.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4c9d0ca3c702bccf35a4d6ce1ac8e37d": {
+            "format": "jpg",
+            "id": "4c9d0ca3c702bccf35a4d6ce1ac8e37d",
+            "name": "2019-11-20-165737.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165737.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ccf7b147c4a5b776d4924b0e7461d6a6": {
+            "format": "jpg",
+            "id": "ccf7b147c4a5b776d4924b0e7461d6a6",
+            "name": "2019-11-20-165745.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165745.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fc338924761e91dcfde69e5a0353a398": {
+            "format": "jpg",
+            "id": "fc338924761e91dcfde69e5a0353a398",
+            "name": "2019-11-20-165800.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165800.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e61b267ebc91346e9a28c032a2716a11": {
+            "format": "jpg",
+            "id": "e61b267ebc91346e9a28c032a2716a11",
+            "name": "2019-11-20-165805.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165805.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "359979d1baf5b6ccf7a21116f85ea3ec": {
+            "format": "jpg",
+            "id": "359979d1baf5b6ccf7a21116f85ea3ec",
+            "name": "2019-11-20-165810.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165810.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "974d7a91b39800576de606a8c428e891": {
+            "format": "jpg",
+            "id": "974d7a91b39800576de606a8c428e891",
+            "name": "2019-11-20-165815.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165815.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1dccce95253718e993250f08c2820a3f": {
+            "format": "jpg",
+            "id": "1dccce95253718e993250f08c2820a3f",
+            "name": "2019-11-20-165819.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165819.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "47f0754faa21f8c977fdfd858231b859": {
+            "format": "jpg",
+            "id": "47f0754faa21f8c977fdfd858231b859",
+            "name": "2019-11-20-165823.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165823.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d78dc7fc72d50ecf8ccc322c3e21b71b": {
+            "format": "jpg",
+            "id": "d78dc7fc72d50ecf8ccc322c3e21b71b",
+            "name": "2019-11-20-165826.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165826.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0c13af03f0699ae9716bcf5c98be01ec": {
+            "format": "jpg",
+            "id": "0c13af03f0699ae9716bcf5c98be01ec",
+            "name": "2019-11-20-165843.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165843.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5157bb66f5df49f5c5100c08fd622e15": {
+            "format": "jpg",
+            "id": "5157bb66f5df49f5c5100c08fd622e15",
+            "name": "2019-11-20-165846.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165846.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "08acc909eba301bc5ff4794314c66c23": {
+            "format": "jpg",
+            "id": "08acc909eba301bc5ff4794314c66c23",
+            "name": "2019-11-20-165857.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165857.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a1da238e10596b3ee001053db4cb3238": {
+            "format": "jpg",
+            "id": "a1da238e10596b3ee001053db4cb3238",
+            "name": "2019-11-20-165859.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165859.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5ed35a761d1252d3c441c59296d63f5f": {
+            "format": "jpg",
+            "id": "5ed35a761d1252d3c441c59296d63f5f",
+            "name": "2019-11-20-165902.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165902.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6fd8bb575ae054c2b340bd16fa51bb6e": {
+            "format": "jpg",
+            "id": "6fd8bb575ae054c2b340bd16fa51bb6e",
+            "name": "2019-11-20-165907.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165907.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2ce545f6de696e799c9543d841447244": {
+            "format": "jpg",
+            "id": "2ce545f6de696e799c9543d841447244",
+            "name": "2019-11-20-165910.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165910.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0939a5ed67c5a4bc28178fe5508d8514": {
+            "format": "jpg",
+            "id": "0939a5ed67c5a4bc28178fe5508d8514",
+            "name": "2019-11-20-165912.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165912.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "928544263affe929d4abf39afc89dc7a": {
+            "format": "jpg",
+            "id": "928544263affe929d4abf39afc89dc7a",
+            "name": "2019-11-20-165914.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165914.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b5fac58e7d504c5de94ae2180dedb470": {
+            "format": "jpg",
+            "id": "b5fac58e7d504c5de94ae2180dedb470",
+            "name": "2019-11-20-165918.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165918.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "70fb25f370e66b0ab385b288d29ca808": {
+            "format": "jpg",
+            "id": "70fb25f370e66b0ab385b288d29ca808",
+            "name": "2019-11-20-165928.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165928.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e4e0e4ebc0394850d204ccdfeb06c7db": {
+            "format": "jpg",
+            "id": "e4e0e4ebc0394850d204ccdfeb06c7db",
+            "name": "2019-11-20-165931.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165931.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0abf8498643f4f0004458dbbc2746c3a": {
+            "format": "jpg",
+            "id": "0abf8498643f4f0004458dbbc2746c3a",
+            "name": "2019-11-20-165934.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165934.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d01725853fd64b17f81d522646a70a22": {
+            "format": "jpg",
+            "id": "d01725853fd64b17f81d522646a70a22",
+            "name": "2019-11-20-165938.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165938.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8dbaeb032d141921277eb3940871b761": {
+            "format": "jpg",
+            "id": "8dbaeb032d141921277eb3940871b761",
+            "name": "2019-11-20-165946.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165946.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ca60143e9a6431cb8b432ae39bfa3a82": {
+            "format": "jpg",
+            "id": "ca60143e9a6431cb8b432ae39bfa3a82",
+            "name": "2019-11-20-165954.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165954.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b17d23ee73032d2c585b29a067827b8d": {
+            "format": "jpg",
+            "id": "b17d23ee73032d2c585b29a067827b8d",
+            "name": "2019-11-20-165957.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165957.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "82609f37b114b6e2b956216298649e44": {
+            "format": "jpg",
+            "id": "82609f37b114b6e2b956216298649e44",
+            "name": "2019-11-20-170008.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170008.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8c89b803f0dae85b85d828c7164e4169": {
+            "format": "jpg",
+            "id": "8c89b803f0dae85b85d828c7164e4169",
+            "name": "2019-11-20-170012.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170012.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bcd07a7bf04322c091d8a6295d72ab3d": {
+            "format": "jpg",
+            "id": "bcd07a7bf04322c091d8a6295d72ab3d",
+            "name": "2019-11-20-170014.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170014.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "adb3765fc5376e0e3c094c57958a16b2": {
+            "format": "jpg",
+            "id": "adb3765fc5376e0e3c094c57958a16b2",
+            "name": "2019-11-20-170016.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170016.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "424dd7ddd8e606bf4752761eea93e283": {
+            "format": "jpg",
+            "id": "424dd7ddd8e606bf4752761eea93e283",
+            "name": "2019-11-20-170020.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170020.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8cdc7bd9f36e9d74a0ec747591e4737b": {
+            "format": "jpg",
+            "id": "8cdc7bd9f36e9d74a0ec747591e4737b",
+            "name": "2019-11-20-170054.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170054.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f5b4dd0d248d1282dfcb527b16439efa": {
+            "format": "jpg",
+            "id": "f5b4dd0d248d1282dfcb527b16439efa",
+            "name": "2019-11-20-170101.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170101.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d0acd60d1627682a4a543fc8c06e0116": {
+            "format": "jpg",
+            "id": "d0acd60d1627682a4a543fc8c06e0116",
+            "name": "2019-11-20-170103.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170103.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2af08eb1ad30d2ea552f9806534ae474": {
+            "format": "jpg",
+            "id": "2af08eb1ad30d2ea552f9806534ae474",
+            "name": "2019-11-20-170108.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170108.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4a58475de1376b855cd079f47d920d5e": {
+            "format": "jpg",
+            "id": "4a58475de1376b855cd079f47d920d5e",
+            "name": "2019-11-20-170113.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170113.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f08e99521138399253517abeb00ac62f": {
+            "format": "jpg",
+            "id": "f08e99521138399253517abeb00ac62f",
+            "name": "2019-11-20-170118.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170118.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ed9c9fe2a040882f9e46fb2a908ecc86": {
+            "format": "jpg",
+            "id": "ed9c9fe2a040882f9e46fb2a908ecc86",
+            "name": "2019-11-20-170121.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170121.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6547b6f3de7ac3c232bb89a7de3c86f1": {
+            "format": "jpg",
+            "id": "6547b6f3de7ac3c232bb89a7de3c86f1",
+            "name": "2019-11-20-170125.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170125.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "012c17b235406dd1fe7f42ff3daa5348": {
+            "format": "jpg",
+            "id": "012c17b235406dd1fe7f42ff3daa5348",
+            "name": "2019-11-20-170129.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170129.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3fbe4d11a3ab36acab9b6632272ca6fe": {
+            "format": "jpg",
+            "id": "3fbe4d11a3ab36acab9b6632272ca6fe",
+            "name": "2019-11-20-170132.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170132.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4319991f86ac8cb4e28d9ce795de8e5a": {
+            "format": "jpg",
+            "id": "4319991f86ac8cb4e28d9ce795de8e5a",
+            "name": "2019-11-20-170136.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170136.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "454e0ad1017a218bc812ba90d080940b": {
+            "format": "jpg",
+            "id": "454e0ad1017a218bc812ba90d080940b",
+            "name": "2019-11-20-170140.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170140.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0ea303cdcde3900485c9c2788cc32253": {
+            "format": "jpg",
+            "id": "0ea303cdcde3900485c9c2788cc32253",
+            "name": "2019-11-20-170143.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170143.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "005edddbcc6e0519ea28b0e6c2950dcb": {
+            "format": "jpg",
+            "id": "005edddbcc6e0519ea28b0e6c2950dcb",
+            "name": "2019-11-20-170150.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170150.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5c31195bbf2fb6c0511f4fe783e0403b": {
+            "format": "jpg",
+            "id": "5c31195bbf2fb6c0511f4fe783e0403b",
+            "name": "2019-11-20-170158.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170158.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "eb0061c8ff993028d574aa6f67e173c8": {
+            "format": "jpg",
+            "id": "eb0061c8ff993028d574aa6f67e173c8",
+            "name": "2019-11-20-170206.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170206.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4252169ca824b0ab2240544511e4aa79": {
+            "format": "jpg",
+            "id": "4252169ca824b0ab2240544511e4aa79",
+            "name": "2019-11-20-170217.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170217.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8725faec54899daf3597a85c9673d85f": {
+            "format": "jpg",
+            "id": "8725faec54899daf3597a85c9673d85f",
+            "name": "2019-11-20-170222.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170222.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1544ceee6f60ed419cfec1cbe4f9484b": {
+            "format": "jpg",
+            "id": "1544ceee6f60ed419cfec1cbe4f9484b",
+            "name": "2019-11-20-170227.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170227.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a67cf504ba6f83d50e50ceceec0345e3": {
+            "format": "jpg",
+            "id": "a67cf504ba6f83d50e50ceceec0345e3",
+            "name": "2019-11-20-170231.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170231.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "66a5454094a02eeaafc8f46c7cfa8ae4": {
+            "format": "jpg",
+            "id": "66a5454094a02eeaafc8f46c7cfa8ae4",
+            "name": "2019-11-20-170236.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170236.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7eaf6fb276e2a06edbaaf6d33194fee7": {
+            "format": "jpg",
+            "id": "7eaf6fb276e2a06edbaaf6d33194fee7",
+            "name": "2019-11-20-170238%20(1).jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170238%20(1).jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "228ecbf5a901b7e16ec1a24f292c571e": {
+            "format": "jpg",
+            "id": "228ecbf5a901b7e16ec1a24f292c571e",
+            "name": "2019-11-20-170259.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170259.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2cafc669a3feefd5c6bdddea3dd1db88": {
+            "format": "jpg",
+            "id": "2cafc669a3feefd5c6bdddea3dd1db88",
+            "name": "2019-11-20-170302.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170302.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "757d94b73c076625cf7191c9239abd2f": {
+            "format": "jpg",
+            "id": "757d94b73c076625cf7191c9239abd2f",
+            "name": "2019-11-20-170306.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170306.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3ed4d51ef0bf710d2449c156077f9915": {
+            "format": "jpg",
+            "id": "3ed4d51ef0bf710d2449c156077f9915",
+            "name": "2019-11-20-170310.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170310.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "59b8cee13f89ad12a6249da419e4cd6c": {
+            "format": "jpg",
+            "id": "59b8cee13f89ad12a6249da419e4cd6c",
+            "name": "2019-11-20-170312.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170312.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "518427adf6e5c5fd2a7ec075fce60b5c": {
+            "format": "jpg",
+            "id": "518427adf6e5c5fd2a7ec075fce60b5c",
+            "name": "2019-11-20-170317.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170317.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1ffd396bb5b628a1888681c56d031c14": {
+            "format": "jpg",
+            "id": "1ffd396bb5b628a1888681c56d031c14",
+            "name": "2019-11-20-170319.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170319.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "582ba1cc1c7b9eb8945657ff155ed20c": {
+            "format": "jpg",
+            "id": "582ba1cc1c7b9eb8945657ff155ed20c",
+            "name": "2019-11-20-170323.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170323.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "07d5030062d0b4186187a7443ef92d2a": {
+            "format": "jpg",
+            "id": "07d5030062d0b4186187a7443ef92d2a",
+            "name": "2019-11-20-170326.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170326.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "645c93eb35eb85a85c8526de7e366e53": {
+            "format": "jpg",
+            "id": "645c93eb35eb85a85c8526de7e366e53",
+            "name": "2019-11-20-170329.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170329.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "88c1fbf481d4535b0b421aaa4e8d452b": {
+            "format": "jpg",
+            "id": "88c1fbf481d4535b0b421aaa4e8d452b",
+            "name": "2019-11-20-170333.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170333.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "eb5e39f602785434ca8e70921a7ec72a": {
+            "format": "jpg",
+            "id": "eb5e39f602785434ca8e70921a7ec72a",
+            "name": "2019-11-20-170339.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170339.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1b3e367b1d6b2fb8589488c09571760a": {
+            "format": "jpg",
+            "id": "1b3e367b1d6b2fb8589488c09571760a",
+            "name": "2019-11-20-170344.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170344.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "78d0f2c8b625e4d4b9d45eed2372aeca": {
+            "format": "jpg",
+            "id": "78d0f2c8b625e4d4b9d45eed2372aeca",
+            "name": "2019-11-20-170346.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170346.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7475a711d8c9b5260b76807eb0784a6e": {
+            "format": "jpg",
+            "id": "7475a711d8c9b5260b76807eb0784a6e",
+            "name": "2019-11-20-170349.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170349.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "67ced17edceb186b6f3b8fe678c3d198": {
+            "format": "jpg",
+            "id": "67ced17edceb186b6f3b8fe678c3d198",
+            "name": "2019-11-20-170353.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170353.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1655e8377b5c74413f98a85954e3cc4c": {
+            "format": "jpg",
+            "id": "1655e8377b5c74413f98a85954e3cc4c",
+            "name": "2019-11-20-170356.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170356.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        },
+        "88807cc05175e5d171cddf36d9f2b4a9": {
+            "format": "jpg",
+            "id": "88807cc05175e5d171cddf36d9f2b4a9",
+            "name": "2019-11-20-170412.jpg",
+            "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-170412.jpg",
+            "size": {
+                "width": 800,
+                "height": 448
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}

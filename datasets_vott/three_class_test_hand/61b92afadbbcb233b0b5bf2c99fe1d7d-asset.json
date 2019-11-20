@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "61b92afadbbcb233b0b5bf2c99fe1d7d",
+        "name": "2019-11-20-165704.jpg",
+        "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_hand/2019-11-20-165704.jpg",
+        "size": {
+            "width": 800,
+            "height": 448
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "pdqaQ7MCp",
+            "type": "RECTANGLE",
+            "tags": [
+                "O001"
+            ],
+            "boundingBox": {
+                "height": 173.81420765027323,
+                "width": 79.63246554364471,
+                "left": 316.0796324655436,
+                "top": 221.36065573770492
+            },
+            "points": [
+                {
+                    "x": 316.0796324655436,
+                    "y": 221.36065573770492
+                },
+                {
+                    "x": 395.7120980091883,
+                    "y": 221.36065573770492
+                },
+                {
+                    "x": 395.7120980091883,
+                    "y": 395.1748633879782
+                },
+                {
+                    "x": 316.0796324655436,
+                    "y": 395.1748633879782
+                }
+            ]
+        }
+    ],
+    "version": "2.1.0"
+}
