@@ -66,7 +66,7 @@ $ DSNAME=xxx_dataset; cp -R ./datasets_vott/${DSNAME}/${DSNAME}-PascalVOC-export
 # 4. Auto annotation
 
 ```
-$ python scripts/augment.py --dsname=three_class_trainval --size=5 --percentage=1
+$ python scripts/augment.py --dsname=three_class_trainval --size=5 --train_percentage=1
 ```
 
 # 5. create train.txt and test.txt

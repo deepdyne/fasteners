@@ -10,7 +10,6 @@ import imgaug as ia
 import numpy as np
 from imgaug import augmenters as iaa
 from pascal_voc_writer import Writer
-
 from util import annotation as an
 from util import sequence
 
@@ -203,17 +202,17 @@ if __name__ == "__main__":
         default=5,
     )
     parser.add_argument(
-        "--percentage",
+        "--train_percentage",
         "-p",
-        help="train / test percentage, range is 0.0 ~ 1.0",
+        help="train / train percentage, value range is 0.0 ~ 1.0",
         type=float,
     )
     args = parser.parse_args()
 
     if args.dsname is None:
         raise Exception("dataset name is need!")
-    if args.percentage is None:
-        raise Exception("percentage is need!")
+    if args.train_percentage is None:
+        raise Exception("train_percentage is need!")
     if args.size < 0:
         raise Exception("size must be more than 0!")
 
@@ -222,6 +221,6 @@ if __name__ == "__main__":
     aug_size = args.size - 1  # 1 means
     input_dir = f"datasets_voc/{dataset_name}"
     train_dir = f"{input_dir}/ImageSets/Main"
-    train_percentage = args.percentage
+    train_percentage = args.train_percentage
 
     main()
