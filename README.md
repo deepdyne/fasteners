@@ -60,19 +60,20 @@ after annotation is done, export proj as Pascal VOC
 # 3. Copy exported Pascal VOC files to the datasets folder
 
 ```
-$ DSNAME=xxx_dataset; cp -R ./datasets_vott/${DSNAME}/${DSNAME}-PascalVOC-export/* ./datasets_voc/${DSNAME}/
+$ DSNAME=xxx_dataset;
+$ cp -R ./datasets_vott/${DSNAME}/${DSNAME}-PascalVOC-export/* ./datasets_voc/${DSNAME}/
 ```
 
 # 4. Auto annotation
 
 ```
-$ python scripts/augment.py --dsname=three_class_trainval --size=5 --train_percentage=1
+$ python scripts/augment.py --dsname=$DSNAME --size=5 --train_percentage=1
 ```
 
 # 5. create train.txt and test.txt
 
 ```
-$ python scripts/voc_label.py --dsname=three_class_trainval --classes=S001,O001,O002 --sets=trainval,test
+$ python scripts/voc_label.py --dsname=$DSNAME --classes=S001,O001,O002 --sets=trainval,test
 ```
 
 # REFERENCES:
