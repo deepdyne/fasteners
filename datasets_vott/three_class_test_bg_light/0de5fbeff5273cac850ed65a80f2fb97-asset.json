@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "0de5fbeff5273cac850ed65a80f2fb97",
+        "name": "2019-11-20-133849.jpg",
+        "path": "file:/home/mike/Workspace/fasteners/datasets_raw/three_class_test_bg_light/2019-11-20-133849.jpg",
+        "size": {
+            "width": 800,
+            "height": 448
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "lMyXqtu7P",
+            "type": "RECTANGLE",
+            "tags": [
+                "S001"
+            ],
+            "boundingBox": {
+                "height": 171.45679012345678,
+                "width": 124.90118577075098,
+                "left": 264.0316205533597,
+                "top": 118.02469135802468
+            },
+            "points": [
+                {
+                    "x": 264.0316205533597,
+                    "y": 118.02469135802468
+                },
+                {
+                    "x": 388.9328063241107,
+                    "y": 118.02469135802468
+                },
+                {
+                    "x": 388.9328063241107,
+                    "y": 289.48148148148147
+                },
+                {
+                    "x": 264.0316205533597,
+                    "y": 289.48148148148147
+                }
+            ]
+        }
+    ],
+    "version": "2.1.0"
+}
