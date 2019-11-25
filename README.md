@@ -77,7 +77,7 @@ $ python scripts/augment.py --dsname=$DSNAME --size=5 --train_percentage=1
 ## 4. Auto annotation & Data augmentation
 
 ```
-$ python scripts/voc_summary.py --dsname=$DSNAME --train_percentage=1
+$ python scripts/voc_summary.py --dsname=$DSNAME --filename=S001.txt
 ```
 
 # 5. create Darknet Data (label directory and train.txt and test.txt which have full path)

@@ -25,7 +25,7 @@ def main():
         )
         image_file_ids = list(map(lambda x: os.path.splitext(x)[0], image_file_names))
 
-    with open("output.txt", "w") as f:
+    with open("test.txt", "w") as f:
         for image_id in image_file_ids:
             f.write("%s\n" % image_id)
 
@@ -41,7 +41,10 @@ if __name__ == "__main__":
     if args.filenames is None:
         raise Exception("filenames is need!")
 
-    FILE_NAMES = args.filenames.split(",")
+    if "," in args.filenames:
+        FILE_NAMES = args.filenames.split(",")
+    else:
+        FILE_NAMES.append(args.filenames)
     DIR_NAME = "datasets_voc/{}/ImageSets/Main/".format(args.dsname)
 
     main()
