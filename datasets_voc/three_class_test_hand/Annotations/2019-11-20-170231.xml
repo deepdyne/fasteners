@@ -1,0 +1,48 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>2019-11-20-170231.jpg</filename>
+    <path>three_class_test_hand-PascalVOC-export/Annotations/2019-11-20-170231.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>800</width>
+        <height>448</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>S001</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>341.8070444104134</xmin>
+        <ymin>214.01639344262296</ymin>
+        <xmax>493.72128637059717</xmax>
+        <ymax>358.4535519125683</ymax>
+    </bndbox>
+</object><object>
+    <name>O001</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>80.85758039816233</xmin>
+        <ymin>114.8688524590164</ymin>
+        <xmax>231.54670750382846</xmax>
+        <ymax>270.3224043715847</ymax>
+    </bndbox>
+</object><object>
+    <name>O002</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>545.1761102603368</xmin>
+        <ymin>143.02185792349727</ymin>
+        <xmax>726.4931087289433</xmax>
+        <ymax>289.9071038251366</ymax>
+    </bndbox>
+</object>
+</annotation>

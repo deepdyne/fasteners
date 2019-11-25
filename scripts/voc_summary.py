@@ -2,21 +2,21 @@
 create trainval.txt and test.txt
 """
 
+import argparse
 import glob
 import os
+import shutil
+import sys
+import xml.etree.ElementTree as ET
 
-DIR_NAME = "outputs/5class_fasteners_dataset/3class-PascalVOC-export/ImageSets/Main/"
+DIR_NAME = ""
+FILE_NAMES = []
 
-os.chdir(DIR_NAME)
 
-for file_type in ["train", "val"]:
-    file_names = []
-    for file_name in glob.glob("*_{}.txt".format(file_type)):
-        file_names.append(file_name)
+def main():
+    os.chdir(DIR_NAME)
 
-    image_ids = []
-    print("file_names", file_names)
-    for file_name in file_names:
+    for file_name in FILE_NAMES:
         image_file_names = (
             open(file_name)
             .read()
@@ -24,12 +24,24 @@ for file_type in ["train", "val"]:
             .split()[0::2]  # [0::2] means only takes odd no items
         )
         image_file_ids = list(map(lambda x: os.path.splitext(x)[0], image_file_names))
-        image_ids = image_file_ids
 
-    with open("{}.txt".format(file_type), "w") as f:
-        for image_id in image_ids:
+    with open("output.txt", "w") as f:
+        for image_id in image_file_ids:
             f.write("%s\n" % image_id)
 
-# NOTE: Coz VoTT creates train and val files on each classes as trainval and test.
-os.rename("train.txt", "trainval.txt")
-os.rename("val.txt", "test.txt")
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--dsname", "-d", help="dataset name", type=str)
+    parser.add_argument("--filenames", "-f", help="filenames", type=str)
+    args = parser.parse_args()
+
+    if args.dsname is None:
+        raise Exception("dataset name is need!")
+    if args.filenames is None:
+        raise Exception("filenames is need!")
+
+    FILE_NAMES = args.filenames.split(",")
+    DIR_NAME = "datasets_voc/{}/ImageSets/Main/".format(args.dsname)
+
+    main()

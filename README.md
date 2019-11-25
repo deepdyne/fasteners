@@ -64,16 +64,26 @@ $ DSNAME=xxx_dataset;
 $ cp -R ./datasets_vott/${DSNAME}/${DSNAME}-PascalVOC-export/* ./datasets_voc/${DSNAME}/
 ```
 
-# 4. Auto annotation
+# with DA
+
+## 4. Auto annotation & Data augmentation
 
 ```
 $ python scripts/augment.py --dsname=$DSNAME --size=5 --train_percentage=1
 ```
 
-# 5. create train.txt and test.txt
+# without DA
+
+## 4. Auto annotation & Data augmentation
 
 ```
-$ python scripts/voc_label.py --dsname=$DSNAME --classes=S001,O001,O002 --sets=trainval,test
+$ python scripts/voc_summary.py --dsname=$DSNAME --train_percentage=1
+```
+
+# 5. create Darknet Data (label directory and train.txt and test.txt which have full path)
+
+```
+$ python scripts/voc_label.py --dsname=$DSNAME --filenames=S001.txt
 ```
 
 # REFERENCES:

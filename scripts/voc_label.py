@@ -90,13 +90,13 @@ if __name__ == "__main__":
 
     if args.dsname is None:
         raise Exception("dataset name is need!")
-    voc_dir_name = f"datasets_voc/{args.dsname}"
+    voc_dir_name = "datasets_voc/{}".format(args.dsname)
 
     print("classes", classes)
     print("sets", sets)
     print("voc_dir_name", voc_dir_name)
 
-    label_dir = f"{voc_dir_name}/labels"
+    label_dir = "{}/labels".format(voc_dir_name)
     if not os.path.exists(label_dir):
         os.makedirs(label_dir)
 
