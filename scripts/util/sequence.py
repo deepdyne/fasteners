@@ -21,7 +21,7 @@ def get():
                     # scale images to 80-120% of their size, individually per axis
                     # scale={"x": (0.8, 1.2), "y": (0.8, 1.2)},
                     # translate by -20 to +20 percent (per axis)
-                    translate_percent={"x": (-0.2, 0.2), "y": (-0.2, 0.2)},
+                    translate_percent={"x": (-0.1, 0.1), "y": (-0.1, 0.1)},
                     rotate=iap.Choice(
                         [90, 180, 270]
                     ),  # https://github.com/aleju/imgaug/issues/35
@@ -87,7 +87,7 @@ def get():
                     # invert color channels
                     iaa.Invert(0.05),  # per_channel=True),
                     # change brightness of images (by -10 to 10 of original value)
-                    iaa.Add((-10, 10)), # , per_channel=0.5),
+                    iaa.Add((-10, 10)),  # , per_channel=0.5),
                     # change hue and saturation
                     iaa.AddToHueAndSaturation((-20, 20)),
                     # either change the brightness of the whole image (sometimes
