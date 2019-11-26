@@ -52,7 +52,7 @@ do Annotion by VoTT
 - Export Setings
   - providor: pascal voc
   - asset state: only tagged assets
-  - test:training = 20:80
+  - test:train = 20:80
   - export unsinged: check
 
 after annotation is done, export proj as Pascal VOC
