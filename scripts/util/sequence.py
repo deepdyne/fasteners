@@ -21,7 +21,7 @@ def get():
                     # scale images to 80-120% of their size, individually per axis
                     # scale={"x": (0.8, 1.2), "y": (0.8, 1.2)},
                     # translate by -20 to +20 percent (per axis)
-                    translate_percent={"x": (-0.1, 0.1), "y": (-0.1, 0.1)},
+                    translate_percent={"x": (-0.05, 0.05), "y": (-0.05, 0.05)},
                     rotate=iap.Choice(
                         [90, 180, 270]
                     ),  # https://github.com/aleju/imgaug/issues/35
