@@ -10,7 +10,7 @@ autopep8 = "*"
 [packages]
 numpy = "*"
 keras = "*"
-tensorflow = "==1.13.1"
+tensorflow = "==1.15.2"
 pillow = "*"
 matplotlib = "*"
 imgaug = "*"
